@@ -29,6 +29,7 @@ private_config.lua
 # Temp files
 *.tmp
 *.swp
+temp-repos/
 
 # Binary files
 *.so
