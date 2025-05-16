@@ -6,7 +6,7 @@
 
 ```
 .hammerspoon/
-├── apps/                    # アプリケーションディレクトリ
+├── apps/                    # アプリケーションディレクトリ（Gitサブモジュール）
 │   └── display_manager/     # ディスプレイマネージャーアプリ
 │       ├── config/          # アプリ専用設定
 │       │   └── settings.lua # 設定ファイル
@@ -44,19 +44,49 @@
 
 ## インストール方法
 
-1. このリポジトリをクローン
+1. このリポジトリをクローン（サブモジュールを含む）
+
+```
+git clone --recursive https://github.com/username/hammerspoon-config.git ~/.hammerspoon
+```
+
+あるいは、クローン後にサブモジュールを初期化
 
 ```
 git clone https://github.com/username/hammerspoon-config.git ~/.hammerspoon
+cd ~/.hammerspoon
+git submodule update --init --recursive
 ```
 
 2. Hammerspoonを再起動
 
 ## 新しいアプリの追加方法
 
-1. `apps/` ディレクトリに新しいアプリケーション用のフォルダを作成
-2. `config.lua` の `apps.enabled` にアプリケーション名を追加
-3. アプリディレクトリ内に `config` と `data` ディレクトリを作成
+### 1. 独立したGitリポジトリとして作成
+
+1. 新しいリポジトリを作成（例: `hammerspoon-app-name`）
+2. 標準的なディレクトリ構造に沿ってアプリを開発
+3. アプリの設定ファイル、データディレクトリ、インストールスクリプトを用意
+4. `package.json`ファイルでメタデータを定義
+
+### 2. サブモジュールとして追加
+
+```bash
+# アプリをサブモジュールとして追加
+git submodule add https://github.com/username/hammerspoon-app-name.git apps/app_name
+
+# config.luaのapps.enabledに追加
+# ...
+
+# 変更をコミット
+git commit -m "アプリ: 新しいアプリを追加"
+```
+
+### 3. アプリマネージャーでインストール
+
+1. Hammerspoonの設定ウィンドウから:
+   - `Ctrl+Alt+Cmd+I` を押して、GitリポジトリのURLを入力
+   - オプションで「サブモジュールとしてインストール」を選択
 
 ## Git管理について
 
@@ -83,15 +113,13 @@ git clone https://github.com/username/hammerspoon-config.git ~/.hammerspoon
 # リモートリポジトリを追加
 git remote add origin https://github.com/username/hammerspoon-config.git
 
-# 初回プッシュ
-git push -u origin main
+# 初回プッシュ（サブモジュールを含む）
+git push -u origin main --recurse-submodules=on-demand
 ```
 
-## アプリのGit管理とインストール
+## アプリの構造とGit管理
 
-### アプリの管理方法
-
-各アプリは独立したGitリポジトリとして管理できます。アプリは以下の構造に従います：
+各アプリは独立したGitリポジトリとして管理されます。推奨される構造：
 
 ```
 hammerspoon-app-name/
@@ -102,30 +130,26 @@ hammerspoon-app-name/
 ├── data/                   # アプリ専用データディレクトリ（空、gitignore対象）
 ├── README.md               # ドキュメント
 ├── install.sh              # インストールスクリプト
-└── package.json            # アプリ情報
+└── package.json            # アプリ情報と依存関係
 ```
 
-### アプリの作成手順
+### アプリの配布方法
 
-1. 新しいリポジトリを作成
-2. アプリのコードを作成
-3. `install.sh` スクリプトを作成（ファイルコピーと設定更新用）
-4. `package.json` で依存関係などを定義
+アプリは以下の方法で配布・インストールできます：
 
-### アプリのインストール方法
-
-1. Hammerspoonの設定ウィンドウから:
-   - `Ctrl+Alt+Cmd+I` を押して、GitリポジトリのURLを入力
-
-2. コマンドラインから:
+1. **独立したGitリポジトリとして**
    ```lua
    hs.execute('cd ~/.hammerspoon && git clone https://github.com/username/hammerspoon-app-name.git /tmp/app && cd /tmp/app && ./install.sh && rm -rf /tmp/app')
    ```
 
-### 既存アプリのリポジトリへの分離方法
+2. **Gitサブモジュールとして**
+   ```bash
+   git submodule add https://github.com/username/hammerspoon-app-name.git apps/app_name
+   ```
 
-1. アプリ用の新しいリポジトリを作成
-2. アプリファイルをコピー
-3. `install.sh` を作成
-4. `package.json` を作成
-5. 変更をコミットしてプッシュ 
+3. **アプリマネージャーを使用して**
+   ```lua
+   -- アプリマネージャーのGUIから
+   -- または
+   hs.luaexec([[require("lib.app_manager").installFromGit("https://github.com/username/hammerspoon-app-name.git", {useSubmodule = true})]])
+   ``` 
