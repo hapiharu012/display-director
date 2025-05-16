@@ -1,0 +1,95 @@
+-- Hammerspoon 起動スクリプト
+
+local config = require("config")
+local utils = require("lib.utils")
+local logger = require("lib.logger").create(config.paths.apps .. "/display_manager/data/display_log.txt")
+local appManager = require("lib.app_manager")
+
+-- 変数初期化
+local loadedApps = {}
+
+-- コマンドラインインターフェース
+local cli = {}
+
+-- アプリのインストール
+cli.installApp = function(url)
+    local success, message = appManager.installFromGit(url)
+    if success then
+        hs.alert.show("アプリがインストールされました。Hammerspoonをリロードしてください。")
+    else
+        hs.alert.show("インストール失敗: " .. message)
+    end
+end
+
+-- アプリのアンインストール
+cli.uninstallApp = function(appName)
+    local success, message = appManager.uninstall(appName)
+    if success then
+        hs.alert.show("アプリがアンインストールされました: " .. appName)
+    else
+        hs.alert.show("アンインストール失敗: " .. message)
+    end
+end
+
+-- インストール済みアプリ一覧表示
+cli.listApps = function()
+    local apps = appManager.listInstalledApps()
+    local message = "インストール済みアプリ:\n"
+    for _, app in ipairs(apps) do
+        message = message .. "- " .. app.name .. "\n"
+    end
+    hs.alert.show(message)
+end
+
+-- CLIの実行（開発用）
+hs.hotkey.bind({"ctrl", "alt", "cmd"}, "I", function()
+    local button, url = hs.dialog.textPrompt(
+        "アプリインストール", 
+        "GitリポジトリのURLを入力:", 
+        "https://github.com/yourusername/hammerspoon-display-manager.git", 
+        "インストール", 
+        "キャンセル"
+    )
+    
+    if button == "インストール" then
+        cli.installApp(url)
+    end
+end)
+
+-- 有効なアプリケーションをロード
+for _, appName in ipairs(config.apps.enabled) do
+    -- '/'を'.'に置き換えてLuaのモジュールパス形式に変換
+    local moduleKey = "apps." .. appName .. ".layout"
+    local app = utils.loadModule(moduleKey)
+    
+    if app and app.updateDisplayLayout then
+        logger("アプリケーションロード成功: " .. appName)
+        app.updateDisplayLayout(true)
+        loadedApps[appName] = app
+    else
+        logger("アプリケーションロード失敗: " .. appName)
+        logger("  試行したモジュールパス: " .. moduleKey)
+    end
+end
+
+-- ディスプレイ変更を監視
+hs.screen.watcher.new(function()
+    logger("画面変更検出")
+    for appName, app in pairs(loadedApps) do
+        if app.updateDisplayLayout then
+            app.updateDisplayLayout(false)
+        end
+    end
+end):start()
+
+-- アプリ読み込み完了メッセージ
+local loadedAppsList = ""
+for appName, _ in pairs(loadedApps) do
+    if loadedAppsList ~= "" then
+        loadedAppsList = loadedAppsList .. ", "
+    end
+    loadedAppsList = loadedAppsList .. appName
+end
+
+hs.alert.show("Hammerspoon 起動完了. 読み込まれたアプリ: " .. (loadedAppsList ~= "" and loadedAppsList or "なし"))
+

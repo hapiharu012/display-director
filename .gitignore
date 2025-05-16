@@ -1,0 +1,36 @@
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+
+# IDE
+.vscode/
+.idea/
+
+# Hammerspoon specific
+# Spoons directory - use rockrocks or GitHub directly
+Spoons/*
+
+# Log files
+*.log
+
+# Saved data directories
+data/*
+apps/*/data/*
+!apps/*/data/.gitkeep
+
+# Private configuration
+private_config.lua
+
+# Temp files
+*.tmp
+*.swp
+
+# Binary files
+*.so
+*.dylib
+*.dll 
