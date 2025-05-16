@@ -11,7 +11,7 @@
 ### 自動インストール
 
 ```lua
-hs.execute('cd ~/.hammerspoon && git clone https://github.com/yourusername/hammerspoon-display-manager.git /tmp/app && cd /tmp/app && ./install.sh && rm -rf /tmp/app')
+hs.execute('cd ~/.hammerspoon && git clone https://github.com/username/hammerspoon-display-manager.git /tmp/app && cd /tmp/app && ./install.sh && rm -rf /tmp/app')
 ```
 
 または、Hammerspoonコンソールから:

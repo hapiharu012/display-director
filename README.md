@@ -47,7 +47,7 @@
 1. このリポジトリをクローン
 
 ```
-git clone https://github.com/yourusername/hammerspoon-config.git ~/.hammerspoon
+git clone https://github.com/username/hammerspoon-config.git ~/.hammerspoon
 ```
 
 2. Hammerspoonを再起動
@@ -81,7 +81,7 @@ git clone https://github.com/yourusername/hammerspoon-config.git ~/.hammerspoon
 
 ```bash
 # リモートリポジトリを追加
-git remote add origin https://github.com/yourusername/hammerspoon-config.git
+git remote add origin https://github.com/username/hammerspoon-config.git
 
 # 初回プッシュ
 git push -u origin main
@@ -119,7 +119,7 @@ hammerspoon-app-name/
 
 2. コマンドラインから:
    ```lua
-   hs.execute('cd ~/.hammerspoon && git clone https://github.com/user/hammerspoon-app-name.git /tmp/app && cd /tmp/app && ./install.sh && rm -rf /tmp/app')
+   hs.execute('cd ~/.hammerspoon && git clone https://github.com/username/hammerspoon-app-name.git /tmp/app && cd /tmp/app && ./install.sh && rm -rf /tmp/app')
    ```
 
 ### 既存アプリのリポジトリへの分離方法
