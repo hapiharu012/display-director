@@ -33,25 +33,53 @@ function utils.executeCommand(cmd, logger)
     if logger then logger("コマンド実行: " .. cmd) end
     
     -- コマンド実行
-    local exitCode = os.execute(cmd)
+    local success, exitCode, _, stdout, stderr = os.execute(cmd .. " 2>&1")
     
-    -- 実行結果を取得（可能な場合）
-    local result = ""
+    -- 詳細な実行結果を取得
+    local resultDetails = ""
     local resultFile = io.popen(cmd .. " 2>&1", "r")
     if resultFile then
-        result = resultFile:read("*a")
+        local fullResult = resultFile:read("*a")
         resultFile:close()
+        resultDetails = fullResult
     end
     
-    if logger then 
-        logger("実行結果: exitCode=" .. tostring(exitCode) .. 
-               ", 出力長さ=" .. #result .. 
-               (result ~= "" and "\n" .. result:sub(1, 100) .. "..." or ""))
+    -- より詳細なログ出力
+    if logger then
+        logger("コマンド実行結果:")
+        logger("- 成功: " .. tostring(success))
+        logger("- 終了コード: " .. tostring(exitCode))
+        
+        if #resultDetails > 0 then
+            if #resultDetails > 800 then
+                -- 長い出力は先頭と末尾を表示
+                logger("- 出力 (長いため一部のみ表示):")
+                logger("--- 先頭 400 バイト ---")
+                logger(resultDetails:sub(1, 400))
+                logger("--- 末尾 400 バイト ---")
+                logger(resultDetails:sub(-400))
+            else
+                logger("- 出力:\n" .. resultDetails)
+            end
+        else
+            logger("- 出力: なし")
+        end
+        
+        -- displayplacerコマンドの場合は特別な処理
+        if cmd:match("displayplacer") then
+            -- 現在のディスプレイ状態を確認
+            logger("--- コマンド実行後のディスプレイ状態確認 ---")
+            local displayInfo = hs.execute("/opt/homebrew/bin/displayplacer list 2>&1")
+            if #displayInfo > 800 then
+                logger("displayplacer list 結果 (一部):\n" .. displayInfo:sub(1, 800) .. "...")
+            else
+                logger("displayplacer list 結果:\n" .. displayInfo)
+            end
+        end
     end
     
     -- 成功判定
-    local success = (exitCode == 0 or exitCode == true)
-    return success, result
+    return success, resultDetails
 end
 
 -- ファイルの存在確認
