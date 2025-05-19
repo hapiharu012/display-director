@@ -27,7 +27,7 @@ function utils.executeCommand(cmd, logger)
     -- 空のコマンドをチェック
     if cmd == nil or cmd == "" or cmd:match("^%s*$") then
         if logger then logger("空のコマンドが渡されました: " .. (cmd or "nil")) end
-        return false, "空のコマンド"
+        return false, "空のコマンド", -1
     end
     
     if logger then logger("コマンド実行: " .. cmd) end
@@ -78,8 +78,8 @@ function utils.executeCommand(cmd, logger)
         end
     end
     
-    -- 成功判定
-    return success, resultDetails
+    -- 成功判定と詳細な戻り値
+    return success, resultDetails, exitCode
 end
 
 -- ファイルの存在確認

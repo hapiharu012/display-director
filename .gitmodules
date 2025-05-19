@@ -1,4 +1,0 @@
-[submodule "apps/display_manager"]
-	path = apps/display_manager
-	url = ./temp-repos/hammerspoon-display-manager
-    branch = main 

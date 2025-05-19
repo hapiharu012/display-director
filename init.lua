@@ -2,7 +2,7 @@
 
 local config = require("config")
 local utils = require("lib.utils")
-local logger = require("lib.logger").create(config.paths.apps .. "/display_manager/data/display_log.txt")
+local logger = require("lib.logger").create(config.paths.hammerspoon .. "/display_log.txt")
 local appManager = require("lib.app_manager")
 
 -- 変数初期化
@@ -75,8 +75,24 @@ end
 -- ディスプレイ変更を監視
 hs.screen.watcher.new(function()
     logger("画面変更検出")
+    
+    -- デバッグ: 現在の画面情報を記録
+    local screens = hs.screen.allScreens()
+    local screenInfo = "現在接続されている画面: " .. #screens .. "台\n"
+    
+    for i, screen in ipairs(screens) do
+        local name = screen:name() or "不明"
+        local uuid = screen:getUUID()
+        local isPrimary = (screen == hs.screen.primaryScreen())
+        screenInfo = screenInfo .. string.format("  %d: %s (UUID: %s, Primary: %s)\n", 
+                                                i, name, uuid, tostring(isPrimary))
+    end
+    
+    logger(screenInfo)
+    
     for appName, app in pairs(loadedApps) do
         if app.updateDisplayLayout then
+            logger("アプリによるレイアウト適用試行: " .. appName)
             app.updateDisplayLayout(false)
         end
     end
