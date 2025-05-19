@@ -1,5 +1,13 @@
 -- Hammerspoon 起動スクリプト
 
+-- パッケージパスの設定（モジュール読み込みのため）
+package.path = package.path .. 
+               ";/Users/morishige/.hammerspoon/?.lua" .. 
+               ";/Users/morishige/.hammerspoon/?/init.lua" ..
+               ";/Users/morishige/.hammerspoon/apps/?.lua" ..
+               ";/Users/morishige/.hammerspoon/apps/?/init.lua" ..
+               ";/Users/morishige/.hammerspoon/lib/?.lua"
+
 local config = require("config")
 local utils = require("lib.utils")
 local logger = require("lib.logger").create(config.paths.hammerspoon .. "/display_log.txt")
@@ -60,6 +68,10 @@ end)
 for _, appName in ipairs(config.apps.enabled) do
     -- '/'を'.'に置き換えてLuaのモジュールパス形式に変換
     local moduleKey = "apps." .. appName .. ".layout"
+    logger("アプリケーション " .. appName .. " のロードを試行します")
+    logger("モジュールパス: " .. moduleKey)
+    logger("現在のパッケージパス: " .. package.path)
+    
     local app = utils.loadModule(moduleKey)
     
     if app and app.updateDisplayLayout then
@@ -69,6 +81,24 @@ for _, appName in ipairs(config.apps.enabled) do
     else
         logger("アプリケーションロード失敗: " .. appName)
         logger("  試行したモジュールパス: " .. moduleKey)
+        
+        -- 直接ファイルの存在を確認
+        local filePath = config.paths.apps .. "/" .. appName .. "/layout.lua"
+        if utils.fileExists(filePath) then
+            logger("ファイルは存在するがロードできません: " .. filePath)
+            
+            -- 直接ロードを試みる
+            local ok, mod = pcall(dofile, filePath)
+            if ok and type(mod) == "table" and mod.updateDisplayLayout then
+                logger("直接dofileでロード成功: " .. filePath)
+                loadedApps[appName] = mod
+                mod.updateDisplayLayout(true)
+            else
+                logger("直接dofileでもロード失敗: " .. tostring(mod))
+            end
+        else
+            logger("ファイルが存在しません: " .. filePath)
+        end
     end
 end
 
@@ -105,7 +135,17 @@ for appName, _ in pairs(loadedApps) do
         loadedAppsList = loadedAppsList .. ", "
     end
     loadedAppsList = loadedAppsList .. appName
+    
+    -- デバッグ: アプリの中身を確認
+    logger("ロードされたアプリの内容確認: " .. appName)
+    for k, v in pairs(loadedApps[appName]) do
+        logger("  - " .. k .. ": " .. tostring(v))
+    end
 end
+
+-- デバッグ: loadedAppsテーブルの内容を表示
+logger("loadedAppsテーブルのキー数: " .. utils.countTableKeys(loadedApps))
+logger("config.apps.enabled数: " .. #config.apps.enabled)
 
 hs.alert.show("Hammerspoon 起動完了. 読み込まれたアプリ: " .. (loadedAppsList ~= "" and loadedAppsList or "なし"))
 

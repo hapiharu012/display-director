@@ -7296,3 +7296,2566 @@ Resolutions for rotation 0:
 
 === Tue May 20 01:25:43 2025 ===
 コマンド実行成功: 
+
+=== Tue May 20 01:28:34 2025 ===
+------- ロガー初期化 -------
+
+=== Tue May 20 01:28:34 2025 ===
+------- ロガー初期化 -------
+
+=== Tue May 20 01:28:34 2025 ===
+標準パスでdisplayplacerが見つかりました: /opt/homebrew/bin/displayplacer
+
+=== Tue May 20 01:28:34 2025 ===
+設定ファイル読み込み成功: /Users/morishige/.hammerspoon/apps/display_manager/config/settings.lua
+
+=== Tue May 20 01:28:34 2025 ===
+アプリケーションロード失敗: display_manager
+
+=== Tue May 20 01:28:34 2025 ===
+  試行したモジュールパス: apps.display_manager.layout
+
+=== Tue May 20 01:28:57 2025 ===
+------- ロガー初期化 -------
+
+=== Tue May 20 01:28:57 2025 ===
+------- ロガー初期化 -------
+
+=== Tue May 20 01:28:57 2025 ===
+標準パスでdisplayplacerが見つかりました: /opt/homebrew/bin/displayplacer
+
+=== Tue May 20 01:28:57 2025 ===
+設定ファイル読み込み成功: /Users/morishige/.hammerspoon/apps/display_manager/config/settings.lua
+
+=== Tue May 20 01:28:57 2025 ===
+アプリケーションロード失敗: display_manager
+
+=== Tue May 20 01:28:57 2025 ===
+  試行したモジュールパス: apps.display_manager.layout
+
+=== Tue May 20 01:29:04 2025 ===
+検出したディスプレイ情報:
+- プライマリー: Built-in Retina Display (UUID: 37D8832A-2D66-02CA-B9F7-8F30A301B230)
+- ディスプレイ 1: Built-in Retina Display (UUID: 37D8832A-2D66-02CA-B9F7-8F30A301B230, 外部: いいえ, フレーム: x=0,y=38,w=1728,h=1079, モード: 1728x1117 scale:2.0 freq:120.0)
+- ディスプレイ 2: DELL S2722DC (UUID: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3, 外部: はい, フレーム: x=-1696,y=-1415,w=2560,h=1415, モード: 2560x1440 scale:1.0 freq:75.0)
+- ディスプレイ 3: MD-156A (UUID: 79713CEB-8631-4D8C-93E5-7533776D496F, 外部: はい, フレーム: x=864,y=-1520,w=1920,h=1055, モード: 1920x1080 scale:1.0 freq:60.0)
+  > 外部モニター順序 1: DELL S2722DC 2560x1440 75Hz (UUID: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3)
+  > 外部モニター順序 2: MD-156A 1920x1080 60Hz (UUID: 79713CEB-8631-4D8C-93E5-7533776D496F)
+生成されたキー: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3,79713CEB-8631-4D8C-93E5-7533776D496F (外部モニター 2台)
+
+=== Tue May 20 01:29:04 2025 ===
+レイアウト保存: モニター構成キー = AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3,79713CEB-8631-4D8C-93E5-7533776D496F
+
+=== Tue May 20 01:29:04 2025 ===
+現在のレイアウト取得: /opt/homebrew/bin/displayplacer list
+結果長さ: 19993
+
+=== Tue May 20 01:29:05 2025 ===
+Execute後のコマンド抽出: displayplacer "id:37D8832A-2D66-02CA-B9F7-8F30A301...
+
+=== Tue May 20 01:29:05 2025 ===
+完全パスを追加: /opt/homebrew/bin/displayplacerr "id:37D8832A-2D66...
+
+=== Tue May 20 01:29:05 2025 ===
+取得したレイアウトデータ長さ: 415
+
+=== Tue May 20 01:29:05 2025 ===
+コマンドパス修正: displayplacerr -> displayplacer
+
+=== Tue May 20 01:29:05 2025 ===
+コマンド抽出処理開始: 入力長=414
+
+=== Tue May 20 01:29:05 2025 ===
+パス付き引用符付きコマンド検出: /opt/homebrew/bin/displayplacer "id:37D8832A-2D66-...
+
+=== Tue May 20 01:29:05 2025 ===
+コマンド実行: mkdir -p /Users/morishige/.hammerspoon/apps/display_manager/data
+
+=== Tue May 20 01:29:05 2025 ===
+コマンド実行結果:
+
+=== Tue May 20 01:29:05 2025 ===
+- 成功: true
+
+=== Tue May 20 01:29:05 2025 ===
+- 終了コード: exit
+
+=== Tue May 20 01:29:05 2025 ===
+- 出力: なし
+
+=== Tue May 20 01:29:05 2025 ===
+保存するレイアウト: キー=AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3,79713CEB-8631-4D8C-93E5-7533776D496F, 長さ=414
+
+=== Tue May 20 01:29:05 2025 ===
+設定をファイルに保存しました: /Users/morishige/.hammerspoon/apps/display_manager/data/saved_layouts.lua
+
+=== Tue May 20 01:29:05 2025 ===
+保存したファイル情報: -rw-r--r--@ 1 morishige  staff  517 May 20 01:29 /Users/morishige/.hammerspoon/apps/display_manager/data/saved_layouts.lua
+
+
+=== Tue May 20 01:29:05 2025 ===
+レイアウト保存完了: キー = AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3,79713CEB-8631-4D8C-93E5-7533776D496F
+
+=== Tue May 20 01:29:06 2025 ===
+検出したディスプレイ情報:
+- プライマリー: Built-in Retina Display (UUID: 37D8832A-2D66-02CA-B9F7-8F30A301B230)
+- ディスプレイ 1: Built-in Retina Display (UUID: 37D8832A-2D66-02CA-B9F7-8F30A301B230, 外部: いいえ, フレーム: x=0,y=38,w=1728,h=1079, モード: 1728x1117 scale:2.0 freq:120.0)
+- ディスプレイ 2: DELL S2722DC (UUID: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3, 外部: はい, フレーム: x=-1696,y=-1415,w=2560,h=1415, モード: 2560x1440 scale:1.0 freq:75.0)
+- ディスプレイ 3: MD-156A (UUID: 79713CEB-8631-4D8C-93E5-7533776D496F, 外部: はい, フレーム: x=864,y=-1520,w=1920,h=1055, モード: 1920x1080 scale:1.0 freq:60.0)
+  > 外部モニター順序 1: DELL S2722DC 2560x1440 75Hz (UUID: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3)
+  > 外部モニター順序 2: MD-156A 1920x1080 60Hz (UUID: 79713CEB-8631-4D8C-93E5-7533776D496F)
+生成されたキー: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3,79713CEB-8631-4D8C-93E5-7533776D496F (外部モニター 2台)
+
+=== Tue May 20 01:29:06 2025 ===
+レイアウト削除: モニター構成キー = AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3,79713CEB-8631-4D8C-93E5-7533776D496F
+
+=== Tue May 20 01:29:06 2025 ===
+コマンド実行: mkdir -p /Users/morishige/.hammerspoon/apps/display_manager/data
+
+=== Tue May 20 01:29:06 2025 ===
+コマンド実行結果:
+
+=== Tue May 20 01:29:06 2025 ===
+- 成功: true
+
+=== Tue May 20 01:29:06 2025 ===
+- 終了コード: exit
+
+=== Tue May 20 01:29:06 2025 ===
+- 出力: なし
+
+=== Tue May 20 01:29:06 2025 ===
+設定をファイルに保存しました: /Users/morishige/.hammerspoon/apps/display_manager/data/saved_layouts.lua
+
+=== Tue May 20 01:29:06 2025 ===
+保存したファイル情報: -rw-r--r--@ 1 morishige  staff  11 May 20 01:29 /Users/morishige/.hammerspoon/apps/display_manager/data/saved_layouts.lua
+
+
+=== Tue May 20 01:29:06 2025 ===
+レイアウト削除完了: キー = AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3,79713CEB-8631-4D8C-93E5-7533776D496F
+
+=== Tue May 20 01:31:24 2025 ===
+------- ロガー初期化 -------
+
+=== Tue May 20 01:31:24 2025 ===
+------- ロガー初期化 -------
+
+=== Tue May 20 01:31:24 2025 ===
+標準パスでdisplayplacerが見つかりました: /opt/homebrew/bin/displayplacer
+
+=== Tue May 20 01:31:24 2025 ===
+設定ファイル読み込み成功: /Users/morishige/.hammerspoon/apps/display_manager/config/settings.lua
+
+=== Tue May 20 01:31:24 2025 ===
+アプリケーションロード失敗: display_manager
+
+=== Tue May 20 01:31:24 2025 ===
+  試行したモジュールパス: apps.display_manager.layout
+
+=== Tue May 20 01:31:31 2025 ===
+------- ロガー初期化 -------
+
+=== Tue May 20 01:31:31 2025 ===
+------- ロガー初期化 -------
+
+=== Tue May 20 01:31:31 2025 ===
+標準パスでdisplayplacerが見つかりました: /opt/homebrew/bin/displayplacer
+
+=== Tue May 20 01:31:31 2025 ===
+設定ファイル読み込み成功: /Users/morishige/.hammerspoon/apps/display_manager/config/settings.lua
+
+=== Tue May 20 01:31:31 2025 ===
+アプリケーションロード失敗: display_manager
+
+=== Tue May 20 01:31:31 2025 ===
+  試行したモジュールパス: apps.display_manager.layout
+
+=== Tue May 20 01:37:46 2025 ===
+------- ロガー初期化 -------
+
+=== Tue May 20 01:37:46 2025 ===
+アプリケーション display_manager のロードを試行します
+
+=== Tue May 20 01:37:46 2025 ===
+モジュールパス: apps.display_manager.layout
+
+=== Tue May 20 01:37:46 2025 ===
+現在のパッケージパス: /Users/morishige/.hammerspoon/?.lua;/Users/morishige/.hammerspoon/?/init.lua;/Users/morishige/.hammerspoon/Spoons/?.spoon/init.lua;/opt/homebrew/share/lua/5.4/?.lua;/opt/homebrew/share/lua/5.4/?/init.lua;/opt/homebrew/lib/lua/5.4/?.lua;/opt/homebrew/lib/lua/5.4/?/init.lua;/usr/local/share/lua/5.4/?.lua;/usr/local/share/lua/5.4/?/init.lua;/usr/local/lib/lua/5.4/?.lua;/usr/local/lib/lua/5.4/?/init.lua;./?.lua;./?/init.lua;/Applications/Hammerspoon.app/Contents/Resources/extensions/?.lua;/Applications/Hammerspoon.app/Contents/Resources/extensions/?/init.lua;~/.local/share/hammerspoon/site/?.lua;~/.local/share/hammerspoon/site/?/init.lua;~/.local/share/hammerspoon/site/Spoons/?.spoon/init.lua;/Users/morishige/.hammerspoon/?.lua;/Users/morishige/.hammerspoon/?/init.lua;/Users/morishige/.hammerspoon/apps/?.lua;/Users/morishige/.hammerspoon/apps/?/init.lua;/Users/morishige/.hammerspoon/lib/?.lua
+
+=== Tue May 20 01:37:46 2025 ===
+------- ロガー初期化 -------
+
+=== Tue May 20 01:37:46 2025 ===
+標準パスでdisplayplacerが見つかりました: /opt/homebrew/bin/displayplacer
+
+=== Tue May 20 01:37:46 2025 ===
+設定ファイル読み込み成功: /Users/morishige/.hammerspoon/apps/display_manager/config/settings.lua
+
+=== Tue May 20 01:37:46 2025 ===
+アプリケーションロード失敗: display_manager
+
+=== Tue May 20 01:37:46 2025 ===
+  試行したモジュールパス: apps.display_manager.layout
+
+=== Tue May 20 01:37:46 2025 ===
+ファイルは存在するがロードできません: /Users/morishige/.hammerspoon/apps/display_manager/layout.lua
+
+=== Tue May 20 01:37:46 2025 ===
+------- ロガー初期化 -------
+
+=== Tue May 20 01:37:46 2025 ===
+設定ファイル読み込み成功: /Users/morishige/.hammerspoon/apps/display_manager/config/settings.lua
+
+=== Tue May 20 01:37:46 2025 ===
+直接dofileでもロード失敗: ...merspoon.app/Contents/Resources/extensions/hs/hotkey.lua:435: At least one of pressedfn, releasedfn or repeatfn must be a function
+
+=== Tue May 20 01:38:37 2025 ===
+------- ロガー初期化 -------
+
+=== Tue May 20 01:38:37 2025 ===
+アプリケーション display_manager のロードを試行します
+
+=== Tue May 20 01:38:37 2025 ===
+モジュールパス: apps.display_manager.layout
+
+=== Tue May 20 01:38:37 2025 ===
+現在のパッケージパス: /Users/morishige/.hammerspoon/?.lua;/Users/morishige/.hammerspoon/?/init.lua;/Users/morishige/.hammerspoon/Spoons/?.spoon/init.lua;/opt/homebrew/share/lua/5.4/?.lua;/opt/homebrew/share/lua/5.4/?/init.lua;/opt/homebrew/lib/lua/5.4/?.lua;/opt/homebrew/lib/lua/5.4/?/init.lua;/usr/local/share/lua/5.4/?.lua;/usr/local/share/lua/5.4/?/init.lua;/usr/local/lib/lua/5.4/?.lua;/usr/local/lib/lua/5.4/?/init.lua;./?.lua;./?/init.lua;/Applications/Hammerspoon.app/Contents/Resources/extensions/?.lua;/Applications/Hammerspoon.app/Contents/Resources/extensions/?/init.lua;~/.local/share/hammerspoon/site/?.lua;~/.local/share/hammerspoon/site/?/init.lua;~/.local/share/hammerspoon/site/Spoons/?.spoon/init.lua;/Users/morishige/.hammerspoon/?.lua;/Users/morishige/.hammerspoon/?/init.lua;/Users/morishige/.hammerspoon/apps/?.lua;/Users/morishige/.hammerspoon/apps/?/init.lua;/Users/morishige/.hammerspoon/lib/?.lua
+
+=== Tue May 20 01:38:37 2025 ===
+------- ロガー初期化 -------
+
+=== Tue May 20 01:38:37 2025 ===
+標準パスでdisplayplacerが見つかりました: /opt/homebrew/bin/displayplacer
+
+=== Tue May 20 01:38:37 2025 ===
+設定ファイル読み込み成功: /Users/morishige/.hammerspoon/apps/display_manager/config/settings.lua
+
+=== Tue May 20 01:38:37 2025 ===
+アプリケーションロード失敗: display_manager
+
+=== Tue May 20 01:38:37 2025 ===
+  試行したモジュールパス: apps.display_manager.layout
+
+=== Tue May 20 01:38:37 2025 ===
+ファイルは存在するがロードできません: /Users/morishige/.hammerspoon/apps/display_manager/layout.lua
+
+=== Tue May 20 01:38:37 2025 ===
+------- ロガー初期化 -------
+
+=== Tue May 20 01:38:37 2025 ===
+設定ファイル読み込み成功: /Users/morishige/.hammerspoon/apps/display_manager/config/settings.lua
+
+=== Tue May 20 01:38:37 2025 ===
+直接dofileでもロード失敗: ...merspoon.app/Contents/Resources/extensions/hs/hotkey.lua:435: At least one of pressedfn, releasedfn or repeatfn must be a function
+
+=== Tue May 20 01:41:55 2025 ===
+------- ロガー初期化 -------
+
+=== Tue May 20 01:41:55 2025 ===
+アプリケーション display_manager のロードを試行します
+
+=== Tue May 20 01:41:55 2025 ===
+モジュールパス: apps.display_manager.layout
+
+=== Tue May 20 01:41:55 2025 ===
+現在のパッケージパス: /Users/morishige/.hammerspoon/?.lua;/Users/morishige/.hammerspoon/?/init.lua;/Users/morishige/.hammerspoon/Spoons/?.spoon/init.lua;/opt/homebrew/share/lua/5.4/?.lua;/opt/homebrew/share/lua/5.4/?/init.lua;/opt/homebrew/lib/lua/5.4/?.lua;/opt/homebrew/lib/lua/5.4/?/init.lua;/usr/local/share/lua/5.4/?.lua;/usr/local/share/lua/5.4/?/init.lua;/usr/local/lib/lua/5.4/?.lua;/usr/local/lib/lua/5.4/?/init.lua;./?.lua;./?/init.lua;/Applications/Hammerspoon.app/Contents/Resources/extensions/?.lua;/Applications/Hammerspoon.app/Contents/Resources/extensions/?/init.lua;~/.local/share/hammerspoon/site/?.lua;~/.local/share/hammerspoon/site/?/init.lua;~/.local/share/hammerspoon/site/Spoons/?.spoon/init.lua;/Users/morishige/.hammerspoon/?.lua;/Users/morishige/.hammerspoon/?/init.lua;/Users/morishige/.hammerspoon/apps/?.lua;/Users/morishige/.hammerspoon/apps/?/init.lua;/Users/morishige/.hammerspoon/lib/?.lua
+
+=== Tue May 20 01:41:55 2025 ===
+------- ロガー初期化 -------
+
+=== Tue May 20 01:41:55 2025 ===
+displayplacerコマンドが見つかりました: /opt/homebrew/bin/displayplacer
+
+=== Tue May 20 01:41:55 2025 ===
+設定ファイル読み込み成功: /Users/morishige/.hammerspoon/apps/display_manager/config/settings.lua
+
+=== Tue May 20 01:41:55 2025 ===
+アプリケーションロード失敗: display_manager
+
+=== Tue May 20 01:41:55 2025 ===
+  試行したモジュールパス: apps.display_manager.layout
+
+=== Tue May 20 01:41:55 2025 ===
+ファイルは存在するがロードできません: /Users/morishige/.hammerspoon/apps/display_manager/layout.lua
+
+=== Tue May 20 01:41:55 2025 ===
+------- ロガー初期化 -------
+
+=== Tue May 20 01:41:55 2025 ===
+設定ファイル読み込み成功: /Users/morishige/.hammerspoon/apps/display_manager/config/settings.lua
+
+=== Tue May 20 01:41:55 2025 ===
+直接dofileでもロード失敗: ...merspoon.app/Contents/Resources/extensions/hs/hotkey.lua:435: key must be a string or a number
+
+=== Tue May 20 01:42:42 2025 ===
+------- ロガー初期化 -------
+
+=== Tue May 20 01:42:42 2025 ===
+アプリケーション display_manager のロードを試行します
+
+=== Tue May 20 01:42:42 2025 ===
+モジュールパス: apps.display_manager.layout
+
+=== Tue May 20 01:42:42 2025 ===
+現在のパッケージパス: /Users/morishige/.hammerspoon/?.lua;/Users/morishige/.hammerspoon/?/init.lua;/Users/morishige/.hammerspoon/Spoons/?.spoon/init.lua;/opt/homebrew/share/lua/5.4/?.lua;/opt/homebrew/share/lua/5.4/?/init.lua;/opt/homebrew/lib/lua/5.4/?.lua;/opt/homebrew/lib/lua/5.4/?/init.lua;/usr/local/share/lua/5.4/?.lua;/usr/local/share/lua/5.4/?/init.lua;/usr/local/lib/lua/5.4/?.lua;/usr/local/lib/lua/5.4/?/init.lua;./?.lua;./?/init.lua;/Applications/Hammerspoon.app/Contents/Resources/extensions/?.lua;/Applications/Hammerspoon.app/Contents/Resources/extensions/?/init.lua;~/.local/share/hammerspoon/site/?.lua;~/.local/share/hammerspoon/site/?/init.lua;~/.local/share/hammerspoon/site/Spoons/?.spoon/init.lua;/Users/morishige/.hammerspoon/?.lua;/Users/morishige/.hammerspoon/?/init.lua;/Users/morishige/.hammerspoon/apps/?.lua;/Users/morishige/.hammerspoon/apps/?/init.lua;/Users/morishige/.hammerspoon/lib/?.lua
+
+=== Tue May 20 01:42:42 2025 ===
+------- ロガー初期化 -------
+
+=== Tue May 20 01:42:42 2025 ===
+displayplacerコマンドが見つかりました: /opt/homebrew/bin/displayplacer
+
+=== Tue May 20 01:42:42 2025 ===
+設定ファイル読み込み成功: /Users/morishige/.hammerspoon/apps/display_manager/config/settings.lua
+
+=== Tue May 20 01:42:42 2025 ===
+ディスプレイマネージャーのメニューバーアイコンを設定しました
+
+=== Tue May 20 01:42:42 2025 ===
+保存済みレイアウト再読み込み開始: /Users/morishige/.hammerspoon/apps/display_manager/data/saved_layouts.lua
+
+=== Tue May 20 01:42:42 2025 ===
+ファイル内容読み込み: 11 バイト
+
+=== Tue May 20 01:42:42 2025 ===
+ファイル構文エラー: [string "return return {..."]:1: unexpected symbol near 'return'
+
+=== Tue May 20 01:42:42 2025 ===
+設定ファイル再読み込み成功: /Users/morishige/.hammerspoon/apps/display_manager/data/saved_layouts.lua
+
+=== Tue May 20 01:42:42 2025 ===
+合計 0 個のレイアウトを読み込みました
+
+=== Tue May 20 01:42:42 2025 ===
+updateDisplayLayout開始: forceMode=true
+
+=== Tue May 20 01:42:42 2025 ===
+displayplacerコマンドが見つかりました: /opt/homebrew/bin/displayplacer
+
+=== Tue May 20 01:42:42 2025 ===
+保存済みレイアウト再読み込み開始: /Users/morishige/.hammerspoon/apps/display_manager/data/saved_layouts.lua
+
+=== Tue May 20 01:42:42 2025 ===
+ファイル内容読み込み: 11 バイト
+
+=== Tue May 20 01:42:42 2025 ===
+ファイル構文エラー: [string "return return {..."]:1: unexpected symbol near 'return'
+
+=== Tue May 20 01:42:42 2025 ===
+設定ファイル再読み込み成功: /Users/morishige/.hammerspoon/apps/display_manager/data/saved_layouts.lua
+
+=== Tue May 20 01:42:42 2025 ===
+合計 0 個のレイアウトを読み込みました
+
+=== Tue May 20 01:42:42 2025 ===
+現在のモニター状況:
+モニター 1: Built-in Retina Display (プライマリ)
+  UUID: 37D8832A-2D66-02CA-B9F7-8F30A301B230
+  フレーム: x=0, y=38, w=1728, h=1079
+  解像度: 1728x1117
+  スケール: 2.0
+  リフレッシュレート: 120 Hz
+モニター 2: DELL S2722DC (セカンダリ)
+  UUID: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3
+  フレーム: x=-1696, y=-1415, w=2560, h=1415
+  解像度: 2560x1440
+  スケール: 1.0
+  リフレッシュレート: 75 Hz
+モニター 3: MD-156A (セカンダリ)
+  UUID: 79713CEB-8631-4D8C-93E5-7533776D496F
+  フレーム: x=864, y=-1520, w=1920, h=1055
+  解像度: 1920x1080
+  スケール: 1.0
+  リフレッシュレート: 60 Hz
+
+
+=== Tue May 20 01:42:42 2025 ===
+検出したディスプレイ情報:
+- プライマリー: Built-in Retina Display (UUID: 37D8832A-2D66-02CA-B9F7-8F30A301B230)
+- ディスプレイ 1: Built-in Retina Display (UUID: 37D8832A-2D66-02CA-B9F7-8F30A301B230, 外部: いいえ, フレーム: x=0,y=38,w=1728,h=1079, モード: 1728x1117 scale:2.0 freq:120.0)
+- ディスプレイ 2: DELL S2722DC (UUID: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3, 外部: はい, フレーム: x=-1696,y=-1415,w=2560,h=1415, モード: 2560x1440 scale:1.0 freq:75.0)
+- ディスプレイ 3: MD-156A (UUID: 79713CEB-8631-4D8C-93E5-7533776D496F, 外部: はい, フレーム: x=864,y=-1520,w=1920,h=1055, モード: 1920x1080 scale:1.0 freq:60.0)
+  > 外部モニター順序 1: DELL S2722DC 2560x1440 75Hz (UUID: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3)
+  > 外部モニター順序 2: MD-156A 1920x1080 60Hz (UUID: 79713CEB-8631-4D8C-93E5-7533776D496F)
+生成されたキー: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3,79713CEB-8631-4D8C-93E5-7533776D496F (外部モニター 2台)
+
+=== Tue May 20 01:42:42 2025 ===
+現在の外部モニター構成キー: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3,79713CEB-8631-4D8C-93E5-7533776D496F
+
+=== Tue May 20 01:42:42 2025 ===
+保存済みレイアウトが見つかりません: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3,79713CEB-8631-4D8C-93E5-7533776D496F
+
+=== Tue May 20 01:42:42 2025 ===
+デフォルトレイアウト適用: /opt/homebrew/bin/displayplacer 'id:AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3 origin:(-1696,-1415)' 'id:79713CEB-8631-4D8C-93E5-7533776D496F origin:(864,-1055)' 'id:37D8832A-2D66-02CA-B9F7-8F30A301B230 origin:(0,0)'
+
+=== Tue May 20 01:42:42 2025 ===
+コマンド実行: /opt/homebrew/bin/displayplacer 'id:AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3 origin:(-1696,-1415)' 'id:79713CEB-8631-4D8C-93E5-7533776D496F origin:(864,-1055)' 'id:37D8832A-2D66-02CA-B9F7-8F30A301B230 origin:(0,0)'
+
+=== Tue May 20 01:42:42 2025 ===
+コマンド実行結果:
+
+=== Tue May 20 01:42:42 2025 ===
+- 成功: nil
+
+=== Tue May 20 01:42:42 2025 ===
+- 終了コード: exit
+
+=== Tue May 20 01:42:42 2025 ===
+- 出力:
+Screen ID AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3: could not find res:0x0 scaling:off
+Screen ID 79713CEB-8631-4D8C-93E5-7533776D496F: could not find res:0x0 scaling:off
+Screen ID 37D8832A-2D66-02CA-B9F7-8F30A301B230: could not find res:0x0 scaling:off
+
+
+=== Tue May 20 01:42:42 2025 ===
+--- コマンド実行後のディスプレイ状態確認 ---
+
+=== Tue May 20 01:42:42 2025 ===
+displayplacer list 結果 (一部):
+Persistent screen id: 37D8832A-2D66-02CA-B9F7-8F30A301B230
+Contextual screen id: 1
+Serial screen id: s4251086178
+Type: MacBook built in screen
+Resolution: 1728x1117
+Hertz: 120
+Color Depth: 8
+Scaling: on
+Origin: (0,0) - main display
+Rotation: 0 - rotate internal screen example (may crash computer, but will be rotated after rebooting): `displayplacer "id:37D8832A-2D66-02CA-B9F7-8F30A301B230 degree:90"`
+Enabled: true
+Resolutions for rotation 0:
+  mode 0: res:960x600 hz:120 color_depth:8 scaling:on
+  mode 1: res:960x600 hz:60 color_depth:8 scaling:on
+  mode 2: res:960x600 hz:59 color_depth:8 scaling:on
+  mode 3: res:960x600 hz:50 color_depth:8 scaling:on
+  mode 4: res:960x600 hz:48 color_depth:8 scaling:on
+  mode 5: res:960x600 hz:47 color_depth:8 scaling:on
+  mode 6: res:1168x730 hz:120 color...
+
+=== Tue May 20 01:42:42 2025 ===
+アプリケーションロード成功: display_manager
+
+=== Tue May 20 01:42:42 2025 ===
+updateDisplayLayout開始: forceMode=true
+
+=== Tue May 20 01:42:42 2025 ===
+displayplacerコマンドが見つかりました: /opt/homebrew/bin/displayplacer
+
+=== Tue May 20 01:42:42 2025 ===
+保存済みレイアウト再読み込み開始: /Users/morishige/.hammerspoon/apps/display_manager/data/saved_layouts.lua
+
+=== Tue May 20 01:42:42 2025 ===
+ファイル内容読み込み: 11 バイト
+
+=== Tue May 20 01:42:42 2025 ===
+ファイル構文エラー: [string "return return {..."]:1: unexpected symbol near 'return'
+
+=== Tue May 20 01:42:42 2025 ===
+設定ファイル再読み込み成功: /Users/morishige/.hammerspoon/apps/display_manager/data/saved_layouts.lua
+
+=== Tue May 20 01:42:42 2025 ===
+合計 0 個のレイアウトを読み込みました
+
+=== Tue May 20 01:42:42 2025 ===
+現在のモニター状況:
+モニター 1: Built-in Retina Display (プライマリ)
+  UUID: 37D8832A-2D66-02CA-B9F7-8F30A301B230
+  フレーム: x=0, y=38, w=1728, h=1079
+  解像度: 1728x1117
+  スケール: 2.0
+  リフレッシュレート: 120 Hz
+モニター 2: DELL S2722DC (セカンダリ)
+  UUID: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3
+  フレーム: x=-1696, y=-1415, w=2560, h=1415
+  解像度: 2560x1440
+  スケール: 1.0
+  リフレッシュレート: 75 Hz
+モニター 3: MD-156A (セカンダリ)
+  UUID: 79713CEB-8631-4D8C-93E5-7533776D496F
+  フレーム: x=864, y=-1520, w=1920, h=1055
+  解像度: 1920x1080
+  スケール: 1.0
+  リフレッシュレート: 60 Hz
+
+
+=== Tue May 20 01:42:42 2025 ===
+検出したディスプレイ情報:
+- プライマリー: Built-in Retina Display (UUID: 37D8832A-2D66-02CA-B9F7-8F30A301B230)
+- ディスプレイ 1: Built-in Retina Display (UUID: 37D8832A-2D66-02CA-B9F7-8F30A301B230, 外部: いいえ, フレーム: x=0,y=38,w=1728,h=1079, モード: 1728x1117 scale:2.0 freq:120.0)
+- ディスプレイ 2: DELL S2722DC (UUID: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3, 外部: はい, フレーム: x=-1696,y=-1415,w=2560,h=1415, モード: 2560x1440 scale:1.0 freq:75.0)
+- ディスプレイ 3: MD-156A (UUID: 79713CEB-8631-4D8C-93E5-7533776D496F, 外部: はい, フレーム: x=864,y=-1520,w=1920,h=1055, モード: 1920x1080 scale:1.0 freq:60.0)
+  > 外部モニター順序 1: DELL S2722DC 2560x1440 75Hz (UUID: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3)
+  > 外部モニター順序 2: MD-156A 1920x1080 60Hz (UUID: 79713CEB-8631-4D8C-93E5-7533776D496F)
+生成されたキー: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3,79713CEB-8631-4D8C-93E5-7533776D496F (外部モニター 2台)
+
+=== Tue May 20 01:42:42 2025 ===
+現在の外部モニター構成キー: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3,79713CEB-8631-4D8C-93E5-7533776D496F
+
+=== Tue May 20 01:42:42 2025 ===
+保存済みレイアウトが見つかりません: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3,79713CEB-8631-4D8C-93E5-7533776D496F
+
+=== Tue May 20 01:42:42 2025 ===
+デフォルトレイアウト適用: /opt/homebrew/bin/displayplacer 'id:AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3 origin:(-1696,-1415)' 'id:79713CEB-8631-4D8C-93E5-7533776D496F origin:(864,-1055)' 'id:37D8832A-2D66-02CA-B9F7-8F30A301B230 origin:(0,0)'
+
+=== Tue May 20 01:42:42 2025 ===
+コマンド実行: /opt/homebrew/bin/displayplacer 'id:AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3 origin:(-1696,-1415)' 'id:79713CEB-8631-4D8C-93E5-7533776D496F origin:(864,-1055)' 'id:37D8832A-2D66-02CA-B9F7-8F30A301B230 origin:(0,0)'
+
+=== Tue May 20 01:42:42 2025 ===
+コマンド実行結果:
+
+=== Tue May 20 01:42:42 2025 ===
+- 成功: nil
+
+=== Tue May 20 01:42:42 2025 ===
+- 終了コード: exit
+
+=== Tue May 20 01:42:42 2025 ===
+- 出力:
+Screen ID AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3: could not find res:0x0 scaling:off
+Screen ID 79713CEB-8631-4D8C-93E5-7533776D496F: could not find res:0x0 scaling:off
+Screen ID 37D8832A-2D66-02CA-B9F7-8F30A301B230: could not find res:0x0 scaling:off
+
+
+=== Tue May 20 01:42:42 2025 ===
+--- コマンド実行後のディスプレイ状態確認 ---
+
+=== Tue May 20 01:42:42 2025 ===
+displayplacer list 結果 (一部):
+Persistent screen id: 37D8832A-2D66-02CA-B9F7-8F30A301B230
+Contextual screen id: 1
+Serial screen id: s4251086178
+Type: MacBook built in screen
+Resolution: 1728x1117
+Hertz: 120
+Color Depth: 8
+Scaling: on
+Origin: (0,0) - main display
+Rotation: 0 - rotate internal screen example (may crash computer, but will be rotated after rebooting): `displayplacer "id:37D8832A-2D66-02CA-B9F7-8F30A301B230 degree:90"`
+Enabled: true
+Resolutions for rotation 0:
+  mode 0: res:960x600 hz:120 color_depth:8 scaling:on
+  mode 1: res:960x600 hz:60 color_depth:8 scaling:on
+  mode 2: res:960x600 hz:59 color_depth:8 scaling:on
+  mode 3: res:960x600 hz:50 color_depth:8 scaling:on
+  mode 4: res:960x600 hz:48 color_depth:8 scaling:on
+  mode 5: res:960x600 hz:47 color_depth:8 scaling:on
+  mode 6: res:1168x730 hz:120 color...
+
+=== Tue May 20 01:42:42 2025 ===
+画面変更検出
+
+=== Tue May 20 01:42:42 2025 ===
+現在接続されている画面: 3台
+  1: Built-in Retina Display (UUID: 37D8832A-2D66-02CA-B9F7-8F30A301B230, Primary: true)
+  2: DELL S2722DC (UUID: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3, Primary: false)
+  3: MD-156A (UUID: 79713CEB-8631-4D8C-93E5-7533776D496F, Primary: false)
+
+
+=== Tue May 20 01:42:42 2025 ===
+アプリによるレイアウト適用試行: display_manager
+
+=== Tue May 20 01:42:42 2025 ===
+updateDisplayLayout開始: forceMode=false
+
+=== Tue May 20 01:42:42 2025 ===
+displayplacerコマンドが見つかりました: /opt/homebrew/bin/displayplacer
+
+=== Tue May 20 01:42:42 2025 ===
+保存済みレイアウト再読み込み開始: /Users/morishige/.hammerspoon/apps/display_manager/data/saved_layouts.lua
+
+=== Tue May 20 01:42:42 2025 ===
+ファイル内容読み込み: 11 バイト
+
+=== Tue May 20 01:42:42 2025 ===
+ファイル構文エラー: [string "return return {..."]:1: unexpected symbol near 'return'
+
+=== Tue May 20 01:42:42 2025 ===
+設定ファイル再読み込み成功: /Users/morishige/.hammerspoon/apps/display_manager/data/saved_layouts.lua
+
+=== Tue May 20 01:42:42 2025 ===
+合計 0 個のレイアウトを読み込みました
+
+=== Tue May 20 01:42:42 2025 ===
+現在のモニター状況:
+モニター 1: Built-in Retina Display (プライマリ)
+  UUID: 37D8832A-2D66-02CA-B9F7-8F30A301B230
+  フレーム: x=0, y=38, w=1728, h=1079
+  解像度: 1728x1117
+  スケール: 2.0
+  リフレッシュレート: 120 Hz
+モニター 2: DELL S2722DC (セカンダリ)
+  UUID: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3
+  フレーム: x=-1696, y=-1415, w=2560, h=1415
+  解像度: 2560x1440
+  スケール: 1.0
+  リフレッシュレート: 75 Hz
+モニター 3: MD-156A (セカンダリ)
+  UUID: 79713CEB-8631-4D8C-93E5-7533776D496F
+  フレーム: x=864, y=-1055, w=1920, h=1055
+  解像度: 1920x1080
+  スケール: 1.0
+  リフレッシュレート: 60 Hz
+
+
+=== Tue May 20 01:42:42 2025 ===
+検出したディスプレイ情報:
+- プライマリー: Built-in Retina Display (UUID: 37D8832A-2D66-02CA-B9F7-8F30A301B230)
+- ディスプレイ 1: Built-in Retina Display (UUID: 37D8832A-2D66-02CA-B9F7-8F30A301B230, 外部: いいえ, フレーム: x=0,y=38,w=1728,h=1079, モード: 1728x1117 scale:2.0 freq:120.0)
+- ディスプレイ 2: DELL S2722DC (UUID: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3, 外部: はい, フレーム: x=-1696,y=-1415,w=2560,h=1415, モード: 2560x1440 scale:1.0 freq:75.0)
+- ディスプレイ 3: MD-156A (UUID: 79713CEB-8631-4D8C-93E5-7533776D496F, 外部: はい, フレーム: x=864,y=-1055,w=1920,h=1055, モード: 1920x1080 scale:1.0 freq:60.0)
+  > 外部モニター順序 1: DELL S2722DC 2560x1440 75Hz (UUID: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3)
+  > 外部モニター順序 2: MD-156A 1920x1080 60Hz (UUID: 79713CEB-8631-4D8C-93E5-7533776D496F)
+生成されたキー: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3,79713CEB-8631-4D8C-93E5-7533776D496F (外部モニター 2台)
+
+=== Tue May 20 01:42:42 2025 ===
+現在の外部モニター構成キー: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3,79713CEB-8631-4D8C-93E5-7533776D496F
+
+=== Tue May 20 01:42:42 2025 ===
+保存済みレイアウトが見つかりません: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3,79713CEB-8631-4D8C-93E5-7533776D496F
+
+=== Tue May 20 01:42:42 2025 ===
+デフォルトレイアウト適用: /opt/homebrew/bin/displayplacer 'id:AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3 origin:(-1696,-1415)' 'id:79713CEB-8631-4D8C-93E5-7533776D496F origin:(864,-1055)' 'id:37D8832A-2D66-02CA-B9F7-8F30A301B230 origin:(0,0)'
+
+=== Tue May 20 01:42:42 2025 ===
+コマンド実行: /opt/homebrew/bin/displayplacer 'id:AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3 origin:(-1696,-1415)' 'id:79713CEB-8631-4D8C-93E5-7533776D496F origin:(864,-1055)' 'id:37D8832A-2D66-02CA-B9F7-8F30A301B230 origin:(0,0)'
+
+=== Tue May 20 01:42:43 2025 ===
+コマンド実行結果:
+
+=== Tue May 20 01:42:43 2025 ===
+- 成功: nil
+
+=== Tue May 20 01:42:43 2025 ===
+- 終了コード: exit
+
+=== Tue May 20 01:42:43 2025 ===
+- 出力:
+Screen ID AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3: could not find res:0x0 scaling:off
+Screen ID 79713CEB-8631-4D8C-93E5-7533776D496F: could not find res:0x0 scaling:off
+Screen ID 37D8832A-2D66-02CA-B9F7-8F30A301B230: could not find res:0x0 scaling:off
+
+
+=== Tue May 20 01:42:43 2025 ===
+--- コマンド実行後のディスプレイ状態確認 ---
+
+=== Tue May 20 01:42:43 2025 ===
+displayplacer list 結果 (一部):
+Persistent screen id: 37D8832A-2D66-02CA-B9F7-8F30A301B230
+Contextual screen id: 1
+Serial screen id: s4251086178
+Type: MacBook built in screen
+Resolution: 1728x1117
+Hertz: 120
+Color Depth: 8
+Scaling: on
+Origin: (0,0) - main display
+Rotation: 0 - rotate internal screen example (may crash computer, but will be rotated after rebooting): `displayplacer "id:37D8832A-2D66-02CA-B9F7-8F30A301B230 degree:90"`
+Enabled: true
+Resolutions for rotation 0:
+  mode 0: res:960x600 hz:120 color_depth:8 scaling:on
+  mode 1: res:960x600 hz:60 color_depth:8 scaling:on
+  mode 2: res:960x600 hz:59 color_depth:8 scaling:on
+  mode 3: res:960x600 hz:50 color_depth:8 scaling:on
+  mode 4: res:960x600 hz:48 color_depth:8 scaling:on
+  mode 5: res:960x600 hz:47 color_depth:8 scaling:on
+  mode 6: res:1168x730 hz:120 color...
+
+=== Tue May 20 01:43:18 2025 ===
+------- ロガー初期化 -------
+
+=== Tue May 20 01:43:18 2025 ===
+アプリケーション display_manager のロードを試行します
+
+=== Tue May 20 01:43:18 2025 ===
+モジュールパス: apps.display_manager.layout
+
+=== Tue May 20 01:43:18 2025 ===
+現在のパッケージパス: /Users/morishige/.hammerspoon/?.lua;/Users/morishige/.hammerspoon/?/init.lua;/Users/morishige/.hammerspoon/Spoons/?.spoon/init.lua;/opt/homebrew/share/lua/5.4/?.lua;/opt/homebrew/share/lua/5.4/?/init.lua;/opt/homebrew/lib/lua/5.4/?.lua;/opt/homebrew/lib/lua/5.4/?/init.lua;/usr/local/share/lua/5.4/?.lua;/usr/local/share/lua/5.4/?/init.lua;/usr/local/lib/lua/5.4/?.lua;/usr/local/lib/lua/5.4/?/init.lua;./?.lua;./?/init.lua;/Applications/Hammerspoon.app/Contents/Resources/extensions/?.lua;/Applications/Hammerspoon.app/Contents/Resources/extensions/?/init.lua;~/.local/share/hammerspoon/site/?.lua;~/.local/share/hammerspoon/site/?/init.lua;~/.local/share/hammerspoon/site/Spoons/?.spoon/init.lua;/Users/morishige/.hammerspoon/?.lua;/Users/morishige/.hammerspoon/?/init.lua;/Users/morishige/.hammerspoon/apps/?.lua;/Users/morishige/.hammerspoon/apps/?/init.lua;/Users/morishige/.hammerspoon/lib/?.lua
+
+=== Tue May 20 01:43:18 2025 ===
+------- ロガー初期化 -------
+
+=== Tue May 20 01:43:18 2025 ===
+displayplacerコマンドが見つかりました: /opt/homebrew/bin/displayplacer
+
+=== Tue May 20 01:43:18 2025 ===
+設定ファイル読み込み成功: /Users/morishige/.hammerspoon/apps/display_manager/config/settings.lua
+
+=== Tue May 20 01:43:18 2025 ===
+ディスプレイマネージャーのメニューバーアイコンを設定しました
+
+=== Tue May 20 01:43:18 2025 ===
+保存済みレイアウト再読み込み開始: /Users/morishige/.hammerspoon/apps/display_manager/data/saved_layouts.lua
+
+=== Tue May 20 01:43:18 2025 ===
+ファイル内容読み込み: 11 バイト
+
+=== Tue May 20 01:43:18 2025 ===
+ファイル構文エラー: [string "return return {..."]:1: unexpected symbol near 'return'
+
+=== Tue May 20 01:43:18 2025 ===
+設定ファイル再読み込み成功: /Users/morishige/.hammerspoon/apps/display_manager/data/saved_layouts.lua
+
+=== Tue May 20 01:43:18 2025 ===
+合計 0 個のレイアウトを読み込みました
+
+=== Tue May 20 01:43:18 2025 ===
+updateDisplayLayout開始: forceMode=true
+
+=== Tue May 20 01:43:18 2025 ===
+displayplacerコマンドが見つかりました: /opt/homebrew/bin/displayplacer
+
+=== Tue May 20 01:43:18 2025 ===
+保存済みレイアウト再読み込み開始: /Users/morishige/.hammerspoon/apps/display_manager/data/saved_layouts.lua
+
+=== Tue May 20 01:43:18 2025 ===
+ファイル内容読み込み: 11 バイト
+
+=== Tue May 20 01:43:18 2025 ===
+ファイル構文エラー: [string "return return {..."]:1: unexpected symbol near 'return'
+
+=== Tue May 20 01:43:18 2025 ===
+設定ファイル再読み込み成功: /Users/morishige/.hammerspoon/apps/display_manager/data/saved_layouts.lua
+
+=== Tue May 20 01:43:18 2025 ===
+合計 0 個のレイアウトを読み込みました
+
+=== Tue May 20 01:43:18 2025 ===
+現在のモニター状況:
+モニター 1: Built-in Retina Display (プライマリ)
+  UUID: 37D8832A-2D66-02CA-B9F7-8F30A301B230
+  フレーム: x=0, y=38, w=1728, h=1079
+  解像度: 1728x1117
+  スケール: 2.0
+  リフレッシュレート: 120 Hz
+モニター 2: DELL S2722DC (セカンダリ)
+  UUID: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3
+  フレーム: x=-1696, y=-1415, w=2560, h=1415
+  解像度: 2560x1440
+  スケール: 1.0
+  リフレッシュレート: 75 Hz
+モニター 3: MD-156A (セカンダリ)
+  UUID: 79713CEB-8631-4D8C-93E5-7533776D496F
+  フレーム: x=864, y=-1055, w=1920, h=1055
+  解像度: 1920x1080
+  スケール: 1.0
+  リフレッシュレート: 60 Hz
+
+
+=== Tue May 20 01:43:18 2025 ===
+検出したディスプレイ情報:
+- プライマリー: Built-in Retina Display (UUID: 37D8832A-2D66-02CA-B9F7-8F30A301B230)
+- ディスプレイ 1: Built-in Retina Display (UUID: 37D8832A-2D66-02CA-B9F7-8F30A301B230, 外部: いいえ, フレーム: x=0,y=38,w=1728,h=1079, モード: 1728x1117 scale:2.0 freq:120.0)
+- ディスプレイ 2: DELL S2722DC (UUID: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3, 外部: はい, フレーム: x=-1696,y=-1415,w=2560,h=1415, モード: 2560x1440 scale:1.0 freq:75.0)
+- ディスプレイ 3: MD-156A (UUID: 79713CEB-8631-4D8C-93E5-7533776D496F, 外部: はい, フレーム: x=864,y=-1055,w=1920,h=1055, モード: 1920x1080 scale:1.0 freq:60.0)
+  > 外部モニター順序 1: DELL S2722DC 2560x1440 75Hz (UUID: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3)
+  > 外部モニター順序 2: MD-156A 1920x1080 60Hz (UUID: 79713CEB-8631-4D8C-93E5-7533776D496F)
+生成されたキー: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3,79713CEB-8631-4D8C-93E5-7533776D496F (外部モニター 2台)
+
+=== Tue May 20 01:43:18 2025 ===
+現在の外部モニター構成キー: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3,79713CEB-8631-4D8C-93E5-7533776D496F
+
+=== Tue May 20 01:43:18 2025 ===
+保存済みレイアウトが見つかりません: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3,79713CEB-8631-4D8C-93E5-7533776D496F
+
+=== Tue May 20 01:43:18 2025 ===
+デフォルトレイアウト適用: /opt/homebrew/bin/displayplacer 'id:AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3 origin:(-1696,-1415)' 'id:79713CEB-8631-4D8C-93E5-7533776D496F origin:(864,-1055)' 'id:37D8832A-2D66-02CA-B9F7-8F30A301B230 origin:(0,0)'
+
+=== Tue May 20 01:43:18 2025 ===
+コマンド実行: /opt/homebrew/bin/displayplacer 'id:AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3 origin:(-1696,-1415)' 'id:79713CEB-8631-4D8C-93E5-7533776D496F origin:(864,-1055)' 'id:37D8832A-2D66-02CA-B9F7-8F30A301B230 origin:(0,0)'
+
+=== Tue May 20 01:43:18 2025 ===
+コマンド実行結果:
+
+=== Tue May 20 01:43:18 2025 ===
+- 成功: nil
+
+=== Tue May 20 01:43:18 2025 ===
+- 終了コード: exit
+
+=== Tue May 20 01:43:18 2025 ===
+- 出力:
+Screen ID AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3: could not find res:0x0 scaling:off
+Screen ID 79713CEB-8631-4D8C-93E5-7533776D496F: could not find res:0x0 scaling:off
+Screen ID 37D8832A-2D66-02CA-B9F7-8F30A301B230: could not find res:0x0 scaling:off
+
+
+=== Tue May 20 01:43:18 2025 ===
+--- コマンド実行後のディスプレイ状態確認 ---
+
+=== Tue May 20 01:43:18 2025 ===
+displayplacer list 結果 (一部):
+Persistent screen id: 37D8832A-2D66-02CA-B9F7-8F30A301B230
+Contextual screen id: 1
+Serial screen id: s4251086178
+Type: MacBook built in screen
+Resolution: 1728x1117
+Hertz: 120
+Color Depth: 8
+Scaling: on
+Origin: (0,0) - main display
+Rotation: 0 - rotate internal screen example (may crash computer, but will be rotated after rebooting): `displayplacer "id:37D8832A-2D66-02CA-B9F7-8F30A301B230 degree:90"`
+Enabled: true
+Resolutions for rotation 0:
+  mode 0: res:960x600 hz:120 color_depth:8 scaling:on
+  mode 1: res:960x600 hz:60 color_depth:8 scaling:on
+  mode 2: res:960x600 hz:59 color_depth:8 scaling:on
+  mode 3: res:960x600 hz:50 color_depth:8 scaling:on
+  mode 4: res:960x600 hz:48 color_depth:8 scaling:on
+  mode 5: res:960x600 hz:47 color_depth:8 scaling:on
+  mode 6: res:1168x730 hz:120 color...
+
+=== Tue May 20 01:43:18 2025 ===
+アプリケーションロード成功: display_manager
+
+=== Tue May 20 01:43:18 2025 ===
+updateDisplayLayout開始: forceMode=true
+
+=== Tue May 20 01:43:18 2025 ===
+displayplacerコマンドが見つかりました: /opt/homebrew/bin/displayplacer
+
+=== Tue May 20 01:43:18 2025 ===
+保存済みレイアウト再読み込み開始: /Users/morishige/.hammerspoon/apps/display_manager/data/saved_layouts.lua
+
+=== Tue May 20 01:43:18 2025 ===
+ファイル内容読み込み: 11 バイト
+
+=== Tue May 20 01:43:18 2025 ===
+ファイル構文エラー: [string "return return {..."]:1: unexpected symbol near 'return'
+
+=== Tue May 20 01:43:18 2025 ===
+設定ファイル再読み込み成功: /Users/morishige/.hammerspoon/apps/display_manager/data/saved_layouts.lua
+
+=== Tue May 20 01:43:18 2025 ===
+合計 0 個のレイアウトを読み込みました
+
+=== Tue May 20 01:43:18 2025 ===
+現在のモニター状況:
+モニター 1: Built-in Retina Display (プライマリ)
+  UUID: 37D8832A-2D66-02CA-B9F7-8F30A301B230
+  フレーム: x=0, y=38, w=1728, h=1079
+  解像度: 1728x1117
+  スケール: 2.0
+  リフレッシュレート: 120 Hz
+モニター 2: DELL S2722DC (セカンダリ)
+  UUID: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3
+  フレーム: x=-1696, y=-1415, w=2560, h=1415
+  解像度: 2560x1440
+  スケール: 1.0
+  リフレッシュレート: 75 Hz
+モニター 3: MD-156A (セカンダリ)
+  UUID: 79713CEB-8631-4D8C-93E5-7533776D496F
+  フレーム: x=864, y=-1055, w=1920, h=1055
+  解像度: 1920x1080
+  スケール: 1.0
+  リフレッシュレート: 60 Hz
+
+
+=== Tue May 20 01:43:18 2025 ===
+検出したディスプレイ情報:
+- プライマリー: Built-in Retina Display (UUID: 37D8832A-2D66-02CA-B9F7-8F30A301B230)
+- ディスプレイ 1: Built-in Retina Display (UUID: 37D8832A-2D66-02CA-B9F7-8F30A301B230, 外部: いいえ, フレーム: x=0,y=38,w=1728,h=1079, モード: 1728x1117 scale:2.0 freq:120.0)
+- ディスプレイ 2: DELL S2722DC (UUID: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3, 外部: はい, フレーム: x=-1696,y=-1415,w=2560,h=1415, モード: 2560x1440 scale:1.0 freq:75.0)
+- ディスプレイ 3: MD-156A (UUID: 79713CEB-8631-4D8C-93E5-7533776D496F, 外部: はい, フレーム: x=864,y=-1055,w=1920,h=1055, モード: 1920x1080 scale:1.0 freq:60.0)
+  > 外部モニター順序 1: DELL S2722DC 2560x1440 75Hz (UUID: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3)
+  > 外部モニター順序 2: MD-156A 1920x1080 60Hz (UUID: 79713CEB-8631-4D8C-93E5-7533776D496F)
+生成されたキー: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3,79713CEB-8631-4D8C-93E5-7533776D496F (外部モニター 2台)
+
+=== Tue May 20 01:43:18 2025 ===
+現在の外部モニター構成キー: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3,79713CEB-8631-4D8C-93E5-7533776D496F
+
+=== Tue May 20 01:43:18 2025 ===
+保存済みレイアウトが見つかりません: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3,79713CEB-8631-4D8C-93E5-7533776D496F
+
+=== Tue May 20 01:43:18 2025 ===
+デフォルトレイアウト適用: /opt/homebrew/bin/displayplacer 'id:AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3 origin:(-1696,-1415)' 'id:79713CEB-8631-4D8C-93E5-7533776D496F origin:(864,-1055)' 'id:37D8832A-2D66-02CA-B9F7-8F30A301B230 origin:(0,0)'
+
+=== Tue May 20 01:43:18 2025 ===
+コマンド実行: /opt/homebrew/bin/displayplacer 'id:AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3 origin:(-1696,-1415)' 'id:79713CEB-8631-4D8C-93E5-7533776D496F origin:(864,-1055)' 'id:37D8832A-2D66-02CA-B9F7-8F30A301B230 origin:(0,0)'
+
+=== Tue May 20 01:43:18 2025 ===
+コマンド実行結果:
+
+=== Tue May 20 01:43:18 2025 ===
+- 成功: nil
+
+=== Tue May 20 01:43:18 2025 ===
+- 終了コード: exit
+
+=== Tue May 20 01:43:18 2025 ===
+- 出力:
+Screen ID AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3: could not find res:0x0 scaling:off
+Screen ID 79713CEB-8631-4D8C-93E5-7533776D496F: could not find res:0x0 scaling:off
+Screen ID 37D8832A-2D66-02CA-B9F7-8F30A301B230: could not find res:0x0 scaling:off
+
+
+=== Tue May 20 01:43:18 2025 ===
+--- コマンド実行後のディスプレイ状態確認 ---
+
+=== Tue May 20 01:43:18 2025 ===
+displayplacer list 結果 (一部):
+Persistent screen id: 37D8832A-2D66-02CA-B9F7-8F30A301B230
+Contextual screen id: 1
+Serial screen id: s4251086178
+Type: MacBook built in screen
+Resolution: 1728x1117
+Hertz: 120
+Color Depth: 8
+Scaling: on
+Origin: (0,0) - main display
+Rotation: 0 - rotate internal screen example (may crash computer, but will be rotated after rebooting): `displayplacer "id:37D8832A-2D66-02CA-B9F7-8F30A301B230 degree:90"`
+Enabled: true
+Resolutions for rotation 0:
+  mode 0: res:960x600 hz:120 color_depth:8 scaling:on
+  mode 1: res:960x600 hz:60 color_depth:8 scaling:on
+  mode 2: res:960x600 hz:59 color_depth:8 scaling:on
+  mode 3: res:960x600 hz:50 color_depth:8 scaling:on
+  mode 4: res:960x600 hz:48 color_depth:8 scaling:on
+  mode 5: res:960x600 hz:47 color_depth:8 scaling:on
+  mode 6: res:1168x730 hz:120 color...
+
+=== Tue May 20 01:43:18 2025 ===
+ロードされたアプリの内容確認: display_manager
+
+=== Tue May 20 01:43:18 2025 ===
+  - saveLayout: function: 0x113121480
+
+=== Tue May 20 01:43:18 2025 ===
+  - updateDisplayLayout: function: 0x113121390
+
+=== Tue May 20 01:43:18 2025 ===
+  - toggleAutoSwitch: function: 0x113121550
+
+=== Tue May 20 01:43:18 2025 ===
+  - showCurrentLayout: function: 0x1131215c0
+
+=== Tue May 20 01:43:18 2025 ===
+  - showHelp: function: 0x113121590
+
+=== Tue May 20 01:43:18 2025 ===
+  - deleteLayout: function: 0x113121500
+
+=== Tue May 20 01:43:18 2025 ===
+loadedAppsテーブルのキー数: 1
+
+=== Tue May 20 01:43:18 2025 ===
+config.apps.enabled数: 1
+
+=== Tue May 20 01:43:40 2025 ===
+------- ロガー初期化 -------
+
+=== Tue May 20 01:43:40 2025 ===
+アプリケーション display_manager のロードを試行します
+
+=== Tue May 20 01:43:40 2025 ===
+モジュールパス: apps.display_manager.layout
+
+=== Tue May 20 01:43:40 2025 ===
+現在のパッケージパス: /Users/morishige/.hammerspoon/?.lua;/Users/morishige/.hammerspoon/?/init.lua;/Users/morishige/.hammerspoon/Spoons/?.spoon/init.lua;/opt/homebrew/share/lua/5.4/?.lua;/opt/homebrew/share/lua/5.4/?/init.lua;/opt/homebrew/lib/lua/5.4/?.lua;/opt/homebrew/lib/lua/5.4/?/init.lua;/usr/local/share/lua/5.4/?.lua;/usr/local/share/lua/5.4/?/init.lua;/usr/local/lib/lua/5.4/?.lua;/usr/local/lib/lua/5.4/?/init.lua;./?.lua;./?/init.lua;/Applications/Hammerspoon.app/Contents/Resources/extensions/?.lua;/Applications/Hammerspoon.app/Contents/Resources/extensions/?/init.lua;~/.local/share/hammerspoon/site/?.lua;~/.local/share/hammerspoon/site/?/init.lua;~/.local/share/hammerspoon/site/Spoons/?.spoon/init.lua;/Users/morishige/.hammerspoon/?.lua;/Users/morishige/.hammerspoon/?/init.lua;/Users/morishige/.hammerspoon/apps/?.lua;/Users/morishige/.hammerspoon/apps/?/init.lua;/Users/morishige/.hammerspoon/lib/?.lua
+
+=== Tue May 20 01:43:40 2025 ===
+------- ロガー初期化 -------
+
+=== Tue May 20 01:43:40 2025 ===
+displayplacerコマンドが見つかりました: /opt/homebrew/bin/displayplacer
+
+=== Tue May 20 01:43:40 2025 ===
+設定ファイル読み込み成功: /Users/morishige/.hammerspoon/apps/display_manager/config/settings.lua
+
+=== Tue May 20 01:43:40 2025 ===
+ディスプレイマネージャーのメニューバーアイコンを設定しました
+
+=== Tue May 20 01:43:40 2025 ===
+保存済みレイアウト再読み込み開始: /Users/morishige/.hammerspoon/apps/display_manager/data/saved_layouts.lua
+
+=== Tue May 20 01:43:40 2025 ===
+ファイル内容読み込み: 11 バイト
+
+=== Tue May 20 01:43:40 2025 ===
+ファイル構文エラー: [string "return return {..."]:1: unexpected symbol near 'return'
+
+=== Tue May 20 01:43:40 2025 ===
+設定ファイル再読み込み成功: /Users/morishige/.hammerspoon/apps/display_manager/data/saved_layouts.lua
+
+=== Tue May 20 01:43:40 2025 ===
+合計 0 個のレイアウトを読み込みました
+
+=== Tue May 20 01:43:40 2025 ===
+updateDisplayLayout開始: forceMode=true
+
+=== Tue May 20 01:43:40 2025 ===
+displayplacerコマンドが見つかりました: /opt/homebrew/bin/displayplacer
+
+=== Tue May 20 01:43:40 2025 ===
+保存済みレイアウト再読み込み開始: /Users/morishige/.hammerspoon/apps/display_manager/data/saved_layouts.lua
+
+=== Tue May 20 01:43:40 2025 ===
+ファイル内容読み込み: 11 バイト
+
+=== Tue May 20 01:43:40 2025 ===
+ファイル構文エラー: [string "return return {..."]:1: unexpected symbol near 'return'
+
+=== Tue May 20 01:43:40 2025 ===
+設定ファイル再読み込み成功: /Users/morishige/.hammerspoon/apps/display_manager/data/saved_layouts.lua
+
+=== Tue May 20 01:43:40 2025 ===
+合計 0 個のレイアウトを読み込みました
+
+=== Tue May 20 01:43:40 2025 ===
+現在のモニター状況:
+モニター 1: Built-in Retina Display (プライマリ)
+  UUID: 37D8832A-2D66-02CA-B9F7-8F30A301B230
+  フレーム: x=0, y=38, w=1728, h=1079
+  解像度: 1728x1117
+  スケール: 2.0
+  リフレッシュレート: 120 Hz
+モニター 2: DELL S2722DC (セカンダリ)
+  UUID: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3
+  フレーム: x=-1696, y=-1415, w=2560, h=1415
+  解像度: 2560x1440
+  スケール: 1.0
+  リフレッシュレート: 75 Hz
+モニター 3: MD-156A (セカンダリ)
+  UUID: 79713CEB-8631-4D8C-93E5-7533776D496F
+  フレーム: x=864, y=-1055, w=1920, h=1055
+  解像度: 1920x1080
+  スケール: 1.0
+  リフレッシュレート: 60 Hz
+
+
+=== Tue May 20 01:43:40 2025 ===
+検出したディスプレイ情報:
+- プライマリー: Built-in Retina Display (UUID: 37D8832A-2D66-02CA-B9F7-8F30A301B230)
+- ディスプレイ 1: Built-in Retina Display (UUID: 37D8832A-2D66-02CA-B9F7-8F30A301B230, 外部: いいえ, フレーム: x=0,y=38,w=1728,h=1079, モード: 1728x1117 scale:2.0 freq:120.0)
+- ディスプレイ 2: DELL S2722DC (UUID: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3, 外部: はい, フレーム: x=-1696,y=-1415,w=2560,h=1415, モード: 2560x1440 scale:1.0 freq:75.0)
+- ディスプレイ 3: MD-156A (UUID: 79713CEB-8631-4D8C-93E5-7533776D496F, 外部: はい, フレーム: x=864,y=-1055,w=1920,h=1055, モード: 1920x1080 scale:1.0 freq:60.0)
+  > 外部モニター順序 1: DELL S2722DC 2560x1440 75Hz (UUID: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3)
+  > 外部モニター順序 2: MD-156A 1920x1080 60Hz (UUID: 79713CEB-8631-4D8C-93E5-7533776D496F)
+生成されたキー: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3,79713CEB-8631-4D8C-93E5-7533776D496F (外部モニター 2台)
+
+=== Tue May 20 01:43:40 2025 ===
+現在の外部モニター構成キー: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3,79713CEB-8631-4D8C-93E5-7533776D496F
+
+=== Tue May 20 01:43:40 2025 ===
+保存済みレイアウトが見つかりません: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3,79713CEB-8631-4D8C-93E5-7533776D496F
+
+=== Tue May 20 01:43:40 2025 ===
+デフォルトレイアウト適用: /opt/homebrew/bin/displayplacer 'id:AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3 origin:(-1696,-1415)' 'id:79713CEB-8631-4D8C-93E5-7533776D496F origin:(864,-1055)' 'id:37D8832A-2D66-02CA-B9F7-8F30A301B230 origin:(0,0)'
+
+=== Tue May 20 01:43:40 2025 ===
+コマンド実行: /opt/homebrew/bin/displayplacer 'id:AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3 origin:(-1696,-1415)' 'id:79713CEB-8631-4D8C-93E5-7533776D496F origin:(864,-1055)' 'id:37D8832A-2D66-02CA-B9F7-8F30A301B230 origin:(0,0)'
+
+=== Tue May 20 01:43:40 2025 ===
+コマンド実行結果:
+
+=== Tue May 20 01:43:40 2025 ===
+- 成功: nil
+
+=== Tue May 20 01:43:40 2025 ===
+- 終了コード: exit
+
+=== Tue May 20 01:43:40 2025 ===
+- 出力:
+Screen ID AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3: could not find res:0x0 scaling:off
+Screen ID 79713CEB-8631-4D8C-93E5-7533776D496F: could not find res:0x0 scaling:off
+Screen ID 37D8832A-2D66-02CA-B9F7-8F30A301B230: could not find res:0x0 scaling:off
+
+
+=== Tue May 20 01:43:40 2025 ===
+--- コマンド実行後のディスプレイ状態確認 ---
+
+=== Tue May 20 01:43:40 2025 ===
+displayplacer list 結果 (一部):
+Persistent screen id: 37D8832A-2D66-02CA-B9F7-8F30A301B230
+Contextual screen id: 1
+Serial screen id: s4251086178
+Type: MacBook built in screen
+Resolution: 1728x1117
+Hertz: 120
+Color Depth: 8
+Scaling: on
+Origin: (0,0) - main display
+Rotation: 0 - rotate internal screen example (may crash computer, but will be rotated after rebooting): `displayplacer "id:37D8832A-2D66-02CA-B9F7-8F30A301B230 degree:90"`
+Enabled: true
+Resolutions for rotation 0:
+  mode 0: res:960x600 hz:120 color_depth:8 scaling:on
+  mode 1: res:960x600 hz:60 color_depth:8 scaling:on
+  mode 2: res:960x600 hz:59 color_depth:8 scaling:on
+  mode 3: res:960x600 hz:50 color_depth:8 scaling:on
+  mode 4: res:960x600 hz:48 color_depth:8 scaling:on
+  mode 5: res:960x600 hz:47 color_depth:8 scaling:on
+  mode 6: res:1168x730 hz:120 color...
+
+=== Tue May 20 01:43:40 2025 ===
+アプリケーションロード成功: display_manager
+
+=== Tue May 20 01:43:40 2025 ===
+updateDisplayLayout開始: forceMode=true
+
+=== Tue May 20 01:43:40 2025 ===
+displayplacerコマンドが見つかりました: /opt/homebrew/bin/displayplacer
+
+=== Tue May 20 01:43:40 2025 ===
+保存済みレイアウト再読み込み開始: /Users/morishige/.hammerspoon/apps/display_manager/data/saved_layouts.lua
+
+=== Tue May 20 01:43:40 2025 ===
+ファイル内容読み込み: 11 バイト
+
+=== Tue May 20 01:43:40 2025 ===
+ファイル構文エラー: [string "return return {..."]:1: unexpected symbol near 'return'
+
+=== Tue May 20 01:43:40 2025 ===
+設定ファイル再読み込み成功: /Users/morishige/.hammerspoon/apps/display_manager/data/saved_layouts.lua
+
+=== Tue May 20 01:43:40 2025 ===
+合計 0 個のレイアウトを読み込みました
+
+=== Tue May 20 01:43:40 2025 ===
+現在のモニター状況:
+モニター 1: Built-in Retina Display (プライマリ)
+  UUID: 37D8832A-2D66-02CA-B9F7-8F30A301B230
+  フレーム: x=0, y=38, w=1728, h=1079
+  解像度: 1728x1117
+  スケール: 2.0
+  リフレッシュレート: 120 Hz
+モニター 2: DELL S2722DC (セカンダリ)
+  UUID: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3
+  フレーム: x=-1696, y=-1415, w=2560, h=1415
+  解像度: 2560x1440
+  スケール: 1.0
+  リフレッシュレート: 75 Hz
+モニター 3: MD-156A (セカンダリ)
+  UUID: 79713CEB-8631-4D8C-93E5-7533776D496F
+  フレーム: x=864, y=-1055, w=1920, h=1055
+  解像度: 1920x1080
+  スケール: 1.0
+  リフレッシュレート: 60 Hz
+
+
+=== Tue May 20 01:43:40 2025 ===
+検出したディスプレイ情報:
+- プライマリー: Built-in Retina Display (UUID: 37D8832A-2D66-02CA-B9F7-8F30A301B230)
+- ディスプレイ 1: Built-in Retina Display (UUID: 37D8832A-2D66-02CA-B9F7-8F30A301B230, 外部: いいえ, フレーム: x=0,y=38,w=1728,h=1079, モード: 1728x1117 scale:2.0 freq:120.0)
+- ディスプレイ 2: DELL S2722DC (UUID: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3, 外部: はい, フレーム: x=-1696,y=-1415,w=2560,h=1415, モード: 2560x1440 scale:1.0 freq:75.0)
+- ディスプレイ 3: MD-156A (UUID: 79713CEB-8631-4D8C-93E5-7533776D496F, 外部: はい, フレーム: x=864,y=-1055,w=1920,h=1055, モード: 1920x1080 scale:1.0 freq:60.0)
+  > 外部モニター順序 1: DELL S2722DC 2560x1440 75Hz (UUID: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3)
+  > 外部モニター順序 2: MD-156A 1920x1080 60Hz (UUID: 79713CEB-8631-4D8C-93E5-7533776D496F)
+生成されたキー: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3,79713CEB-8631-4D8C-93E5-7533776D496F (外部モニター 2台)
+
+=== Tue May 20 01:43:40 2025 ===
+現在の外部モニター構成キー: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3,79713CEB-8631-4D8C-93E5-7533776D496F
+
+=== Tue May 20 01:43:40 2025 ===
+保存済みレイアウトが見つかりません: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3,79713CEB-8631-4D8C-93E5-7533776D496F
+
+=== Tue May 20 01:43:40 2025 ===
+デフォルトレイアウト適用: /opt/homebrew/bin/displayplacer 'id:AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3 origin:(-1696,-1415)' 'id:79713CEB-8631-4D8C-93E5-7533776D496F origin:(864,-1055)' 'id:37D8832A-2D66-02CA-B9F7-8F30A301B230 origin:(0,0)'
+
+=== Tue May 20 01:43:40 2025 ===
+コマンド実行: /opt/homebrew/bin/displayplacer 'id:AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3 origin:(-1696,-1415)' 'id:79713CEB-8631-4D8C-93E5-7533776D496F origin:(864,-1055)' 'id:37D8832A-2D66-02CA-B9F7-8F30A301B230 origin:(0,0)'
+
+=== Tue May 20 01:43:40 2025 ===
+コマンド実行結果:
+
+=== Tue May 20 01:43:40 2025 ===
+- 成功: nil
+
+=== Tue May 20 01:43:40 2025 ===
+- 終了コード: exit
+
+=== Tue May 20 01:43:40 2025 ===
+- 出力:
+Screen ID AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3: could not find res:0x0 scaling:off
+Screen ID 79713CEB-8631-4D8C-93E5-7533776D496F: could not find res:0x0 scaling:off
+Screen ID 37D8832A-2D66-02CA-B9F7-8F30A301B230: could not find res:0x0 scaling:off
+
+
+=== Tue May 20 01:43:40 2025 ===
+--- コマンド実行後のディスプレイ状態確認 ---
+
+=== Tue May 20 01:43:40 2025 ===
+displayplacer list 結果 (一部):
+Persistent screen id: 37D8832A-2D66-02CA-B9F7-8F30A301B230
+Contextual screen id: 1
+Serial screen id: s4251086178
+Type: MacBook built in screen
+Resolution: 1728x1117
+Hertz: 120
+Color Depth: 8
+Scaling: on
+Origin: (0,0) - main display
+Rotation: 0 - rotate internal screen example (may crash computer, but will be rotated after rebooting): `displayplacer "id:37D8832A-2D66-02CA-B9F7-8F30A301B230 degree:90"`
+Enabled: true
+Resolutions for rotation 0:
+  mode 0: res:960x600 hz:120 color_depth:8 scaling:on
+  mode 1: res:960x600 hz:60 color_depth:8 scaling:on
+  mode 2: res:960x600 hz:59 color_depth:8 scaling:on
+  mode 3: res:960x600 hz:50 color_depth:8 scaling:on
+  mode 4: res:960x600 hz:48 color_depth:8 scaling:on
+  mode 5: res:960x600 hz:47 color_depth:8 scaling:on
+  mode 6: res:1168x730 hz:120 color...
+
+=== Tue May 20 01:43:40 2025 ===
+ロードされたアプリの内容確認: display_manager
+
+=== Tue May 20 01:43:40 2025 ===
+  - saveLayout: function: 0x123ce0680
+
+=== Tue May 20 01:43:40 2025 ===
+  - deleteLayout: function: 0x123ce33f0
+
+=== Tue May 20 01:43:40 2025 ===
+  - updateDisplayLayout: function: 0x123cd7810
+
+=== Tue May 20 01:43:40 2025 ===
+  - toggleAutoSwitch: function: 0x123cfd1d0
+
+=== Tue May 20 01:43:40 2025 ===
+  - showHelp: function: 0x123cdc670
+
+=== Tue May 20 01:43:40 2025 ===
+  - showCurrentLayout: function: 0x123cd4280
+
+=== Tue May 20 01:43:40 2025 ===
+loadedAppsテーブルのキー数: 1
+
+=== Tue May 20 01:43:40 2025 ===
+config.apps.enabled数: 1
+
+=== Tue May 20 01:43:46 2025 ===
+画面変更検出
+
+=== Tue May 20 01:43:46 2025 ===
+現在接続されている画面: 3台
+  1: Built-in Retina Display (UUID: 37D8832A-2D66-02CA-B9F7-8F30A301B230, Primary: true)
+  2: DELL S2722DC (UUID: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3, Primary: false)
+  3: MD-156A (UUID: 79713CEB-8631-4D8C-93E5-7533776D496F, Primary: false)
+
+
+=== Tue May 20 01:43:46 2025 ===
+アプリによるレイアウト適用試行: display_manager
+
+=== Tue May 20 01:43:46 2025 ===
+updateDisplayLayout開始: forceMode=false
+
+=== Tue May 20 01:43:46 2025 ===
+displayplacerコマンドが見つかりました: /opt/homebrew/bin/displayplacer
+
+=== Tue May 20 01:43:46 2025 ===
+保存済みレイアウト再読み込み開始: /Users/morishige/.hammerspoon/apps/display_manager/data/saved_layouts.lua
+
+=== Tue May 20 01:43:46 2025 ===
+ファイル内容読み込み: 11 バイト
+
+=== Tue May 20 01:43:46 2025 ===
+ファイル構文エラー: [string "return return {..."]:1: unexpected symbol near 'return'
+
+=== Tue May 20 01:43:46 2025 ===
+設定ファイル再読み込み成功: /Users/morishige/.hammerspoon/apps/display_manager/data/saved_layouts.lua
+
+=== Tue May 20 01:43:46 2025 ===
+合計 0 個のレイアウトを読み込みました
+
+=== Tue May 20 01:43:46 2025 ===
+現在のモニター状況:
+モニター 1: Built-in Retina Display (プライマリ)
+  UUID: 37D8832A-2D66-02CA-B9F7-8F30A301B230
+  フレーム: x=0, y=38, w=1728, h=1079
+  解像度: 1728x1117
+  スケール: 2.0
+  リフレッシュレート: 120 Hz
+モニター 2: DELL S2722DC (セカンダリ)
+  UUID: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3
+  フレーム: x=-1696, y=-1415, w=2560, h=1415
+  解像度: 2560x1440
+  スケール: 1.0
+  リフレッシュレート: 75 Hz
+モニター 3: MD-156A (セカンダリ)
+  UUID: 79713CEB-8631-4D8C-93E5-7533776D496F
+  フレーム: x=864, y=-1415, w=1920, h=1055
+  解像度: 1920x1080
+  スケール: 1.0
+  リフレッシュレート: 60 Hz
+
+
+=== Tue May 20 01:43:46 2025 ===
+検出したディスプレイ情報:
+- プライマリー: Built-in Retina Display (UUID: 37D8832A-2D66-02CA-B9F7-8F30A301B230)
+- ディスプレイ 1: Built-in Retina Display (UUID: 37D8832A-2D66-02CA-B9F7-8F30A301B230, 外部: いいえ, フレーム: x=0,y=38,w=1728,h=1079, モード: 1728x1117 scale:2.0 freq:120.0)
+- ディスプレイ 2: DELL S2722DC (UUID: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3, 外部: はい, フレーム: x=-1696,y=-1415,w=2560,h=1415, モード: 2560x1440 scale:1.0 freq:75.0)
+- ディスプレイ 3: MD-156A (UUID: 79713CEB-8631-4D8C-93E5-7533776D496F, 外部: はい, フレーム: x=864,y=-1415,w=1920,h=1055, モード: 1920x1080 scale:1.0 freq:60.0)
+  > 外部モニター順序 1: DELL S2722DC 2560x1440 75Hz (UUID: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3)
+  > 外部モニター順序 2: MD-156A 1920x1080 60Hz (UUID: 79713CEB-8631-4D8C-93E5-7533776D496F)
+生成されたキー: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3,79713CEB-8631-4D8C-93E5-7533776D496F (外部モニター 2台)
+
+=== Tue May 20 01:43:46 2025 ===
+現在の外部モニター構成キー: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3,79713CEB-8631-4D8C-93E5-7533776D496F
+
+=== Tue May 20 01:43:46 2025 ===
+保存済みレイアウトが見つかりません: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3,79713CEB-8631-4D8C-93E5-7533776D496F
+
+=== Tue May 20 01:43:46 2025 ===
+デフォルトレイアウト適用: /opt/homebrew/bin/displayplacer 'id:AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3 origin:(-1696,-1415)' 'id:79713CEB-8631-4D8C-93E5-7533776D496F origin:(864,-1055)' 'id:37D8832A-2D66-02CA-B9F7-8F30A301B230 origin:(0,0)'
+
+=== Tue May 20 01:43:46 2025 ===
+コマンド実行: /opt/homebrew/bin/displayplacer 'id:AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3 origin:(-1696,-1415)' 'id:79713CEB-8631-4D8C-93E5-7533776D496F origin:(864,-1055)' 'id:37D8832A-2D66-02CA-B9F7-8F30A301B230 origin:(0,0)'
+
+=== Tue May 20 01:43:46 2025 ===
+コマンド実行結果:
+
+=== Tue May 20 01:43:46 2025 ===
+- 成功: nil
+
+=== Tue May 20 01:43:46 2025 ===
+- 終了コード: exit
+
+=== Tue May 20 01:43:46 2025 ===
+- 出力:
+Screen ID AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3: could not find res:0x0 scaling:off
+Screen ID 79713CEB-8631-4D8C-93E5-7533776D496F: could not find res:0x0 scaling:off
+Screen ID 37D8832A-2D66-02CA-B9F7-8F30A301B230: could not find res:0x0 scaling:off
+
+
+=== Tue May 20 01:43:46 2025 ===
+--- コマンド実行後のディスプレイ状態確認 ---
+
+=== Tue May 20 01:43:47 2025 ===
+displayplacer list 結果 (一部):
+Persistent screen id: 37D8832A-2D66-02CA-B9F7-8F30A301B230
+Contextual screen id: 1
+Serial screen id: s4251086178
+Type: MacBook built in screen
+Resolution: 1728x1117
+Hertz: 120
+Color Depth: 8
+Scaling: on
+Origin: (0,0) - main display
+Rotation: 0 - rotate internal screen example (may crash computer, but will be rotated after rebooting): `displayplacer "id:37D8832A-2D66-02CA-B9F7-8F30A301B230 degree:90"`
+Enabled: true
+Resolutions for rotation 0:
+  mode 0: res:960x600 hz:120 color_depth:8 scaling:on
+  mode 1: res:960x600 hz:60 color_depth:8 scaling:on
+  mode 2: res:960x600 hz:59 color_depth:8 scaling:on
+  mode 3: res:960x600 hz:50 color_depth:8 scaling:on
+  mode 4: res:960x600 hz:48 color_depth:8 scaling:on
+  mode 5: res:960x600 hz:47 color_depth:8 scaling:on
+  mode 6: res:1168x730 hz:120 color...
+
+=== Tue May 20 01:43:47 2025 ===
+画面変更検出
+
+=== Tue May 20 01:43:47 2025 ===
+現在接続されている画面: 3台
+  1: Built-in Retina Display (UUID: 37D8832A-2D66-02CA-B9F7-8F30A301B230, Primary: true)
+  2: DELL S2722DC (UUID: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3, Primary: false)
+  3: MD-156A (UUID: 79713CEB-8631-4D8C-93E5-7533776D496F, Primary: false)
+
+
+=== Tue May 20 01:43:47 2025 ===
+アプリによるレイアウト適用試行: display_manager
+
+=== Tue May 20 01:43:47 2025 ===
+updateDisplayLayout開始: forceMode=false
+
+=== Tue May 20 01:43:47 2025 ===
+displayplacerコマンドが見つかりました: /opt/homebrew/bin/displayplacer
+
+=== Tue May 20 01:43:47 2025 ===
+保存済みレイアウト再読み込み開始: /Users/morishige/.hammerspoon/apps/display_manager/data/saved_layouts.lua
+
+=== Tue May 20 01:43:47 2025 ===
+ファイル内容読み込み: 11 バイト
+
+=== Tue May 20 01:43:47 2025 ===
+ファイル構文エラー: [string "return return {..."]:1: unexpected symbol near 'return'
+
+=== Tue May 20 01:43:47 2025 ===
+設定ファイル再読み込み成功: /Users/morishige/.hammerspoon/apps/display_manager/data/saved_layouts.lua
+
+=== Tue May 20 01:43:47 2025 ===
+合計 0 個のレイアウトを読み込みました
+
+=== Tue May 20 01:43:47 2025 ===
+現在のモニター状況:
+モニター 1: Built-in Retina Display (プライマリ)
+  UUID: 37D8832A-2D66-02CA-B9F7-8F30A301B230
+  フレーム: x=0, y=38, w=1728, h=1079
+  解像度: 1728x1117
+  スケール: 2.0
+  リフレッシュレート: 120 Hz
+モニター 2: DELL S2722DC (セカンダリ)
+  UUID: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3
+  フレーム: x=-1696, y=-1415, w=2560, h=1415
+  解像度: 2560x1440
+  スケール: 1.0
+  リフレッシュレート: 75 Hz
+モニター 3: MD-156A (セカンダリ)
+  UUID: 79713CEB-8631-4D8C-93E5-7533776D496F
+  フレーム: x=864, y=-1055, w=1920, h=1055
+  解像度: 1920x1080
+  スケール: 1.0
+  リフレッシュレート: 60 Hz
+
+
+=== Tue May 20 01:43:47 2025 ===
+検出したディスプレイ情報:
+- プライマリー: Built-in Retina Display (UUID: 37D8832A-2D66-02CA-B9F7-8F30A301B230)
+- ディスプレイ 1: Built-in Retina Display (UUID: 37D8832A-2D66-02CA-B9F7-8F30A301B230, 外部: いいえ, フレーム: x=0,y=38,w=1728,h=1079, モード: 1728x1117 scale:2.0 freq:120.0)
+- ディスプレイ 2: DELL S2722DC (UUID: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3, 外部: はい, フレーム: x=-1696,y=-1415,w=2560,h=1415, モード: 2560x1440 scale:1.0 freq:75.0)
+- ディスプレイ 3: MD-156A (UUID: 79713CEB-8631-4D8C-93E5-7533776D496F, 外部: はい, フレーム: x=864,y=-1055,w=1920,h=1055, モード: 1920x1080 scale:1.0 freq:60.0)
+  > 外部モニター順序 1: DELL S2722DC 2560x1440 75Hz (UUID: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3)
+  > 外部モニター順序 2: MD-156A 1920x1080 60Hz (UUID: 79713CEB-8631-4D8C-93E5-7533776D496F)
+生成されたキー: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3,79713CEB-8631-4D8C-93E5-7533776D496F (外部モニター 2台)
+
+=== Tue May 20 01:43:47 2025 ===
+現在の外部モニター構成キー: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3,79713CEB-8631-4D8C-93E5-7533776D496F
+
+=== Tue May 20 01:43:47 2025 ===
+保存済みレイアウトが見つかりません: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3,79713CEB-8631-4D8C-93E5-7533776D496F
+
+=== Tue May 20 01:43:47 2025 ===
+デフォルトレイアウト適用: /opt/homebrew/bin/displayplacer 'id:AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3 origin:(-1696,-1415)' 'id:79713CEB-8631-4D8C-93E5-7533776D496F origin:(864,-1055)' 'id:37D8832A-2D66-02CA-B9F7-8F30A301B230 origin:(0,0)'
+
+=== Tue May 20 01:43:47 2025 ===
+コマンド実行: /opt/homebrew/bin/displayplacer 'id:AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3 origin:(-1696,-1415)' 'id:79713CEB-8631-4D8C-93E5-7533776D496F origin:(864,-1055)' 'id:37D8832A-2D66-02CA-B9F7-8F30A301B230 origin:(0,0)'
+
+=== Tue May 20 01:43:47 2025 ===
+コマンド実行結果:
+
+=== Tue May 20 01:43:47 2025 ===
+- 成功: nil
+
+=== Tue May 20 01:43:47 2025 ===
+- 終了コード: exit
+
+=== Tue May 20 01:43:47 2025 ===
+- 出力:
+Screen ID AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3: could not find res:0x0 scaling:off
+Screen ID 79713CEB-8631-4D8C-93E5-7533776D496F: could not find res:0x0 scaling:off
+Screen ID 37D8832A-2D66-02CA-B9F7-8F30A301B230: could not find res:0x0 scaling:off
+
+
+=== Tue May 20 01:43:47 2025 ===
+--- コマンド実行後のディスプレイ状態確認 ---
+
+=== Tue May 20 01:43:47 2025 ===
+displayplacer list 結果 (一部):
+Persistent screen id: 37D8832A-2D66-02CA-B9F7-8F30A301B230
+Contextual screen id: 1
+Serial screen id: s4251086178
+Type: MacBook built in screen
+Resolution: 1728x1117
+Hertz: 120
+Color Depth: 8
+Scaling: on
+Origin: (0,0) - main display
+Rotation: 0 - rotate internal screen example (may crash computer, but will be rotated after rebooting): `displayplacer "id:37D8832A-2D66-02CA-B9F7-8F30A301B230 degree:90"`
+Enabled: true
+Resolutions for rotation 0:
+  mode 0: res:960x600 hz:120 color_depth:8 scaling:on
+  mode 1: res:960x600 hz:60 color_depth:8 scaling:on
+  mode 2: res:960x600 hz:59 color_depth:8 scaling:on
+  mode 3: res:960x600 hz:50 color_depth:8 scaling:on
+  mode 4: res:960x600 hz:48 color_depth:8 scaling:on
+  mode 5: res:960x600 hz:47 color_depth:8 scaling:on
+  mode 6: res:1168x730 hz:120 color...
+
+=== Tue May 20 01:43:49 2025 ===
+自動切り替え状態変更: OFF
+
+=== Tue May 20 01:43:51 2025 ===
+画面変更検出
+
+=== Tue May 20 01:43:51 2025 ===
+現在接続されている画面: 3台
+  1: Built-in Retina Display (UUID: 37D8832A-2D66-02CA-B9F7-8F30A301B230, Primary: true)
+  2: DELL S2722DC (UUID: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3, Primary: false)
+  3: MD-156A (UUID: 79713CEB-8631-4D8C-93E5-7533776D496F, Primary: false)
+
+
+=== Tue May 20 01:43:51 2025 ===
+アプリによるレイアウト適用試行: display_manager
+
+=== Tue May 20 01:43:51 2025 ===
+updateDisplayLayout開始: forceMode=false
+
+=== Tue May 20 01:43:51 2025 ===
+自動切り替えが無効なため終了
+
+=== Tue May 20 01:43:51 2025 ===
+画面変更検出
+
+=== Tue May 20 01:43:51 2025 ===
+現在接続されている画面: 3台
+  1: Built-in Retina Display (UUID: 37D8832A-2D66-02CA-B9F7-8F30A301B230, Primary: true)
+  2: DELL S2722DC (UUID: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3, Primary: false)
+  3: MD-156A (UUID: 79713CEB-8631-4D8C-93E5-7533776D496F, Primary: false)
+
+
+=== Tue May 20 01:43:51 2025 ===
+アプリによるレイアウト適用試行: display_manager
+
+=== Tue May 20 01:43:51 2025 ===
+updateDisplayLayout開始: forceMode=false
+
+=== Tue May 20 01:43:51 2025 ===
+自動切り替えが無効なため終了
+
+=== Tue May 20 01:43:56 2025 ===
+検出したディスプレイ情報:
+- プライマリー: Built-in Retina Display (UUID: 37D8832A-2D66-02CA-B9F7-8F30A301B230)
+- ディスプレイ 1: Built-in Retina Display (UUID: 37D8832A-2D66-02CA-B9F7-8F30A301B230, 外部: いいえ, フレーム: x=0,y=38,w=1728,h=1079, モード: 1728x1117 scale:2.0 freq:120.0)
+- ディスプレイ 2: DELL S2722DC (UUID: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3, 外部: はい, フレーム: x=-1696,y=-1415,w=2560,h=1415, モード: 2560x1440 scale:1.0 freq:75.0)
+- ディスプレイ 3: MD-156A (UUID: 79713CEB-8631-4D8C-93E5-7533776D496F, 外部: はい, フレーム: x=864,y=-1491,w=1920,h=1055, モード: 1920x1080 scale:1.0 freq:60.0)
+  > 外部モニター順序 1: DELL S2722DC 2560x1440 75Hz (UUID: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3)
+  > 外部モニター順序 2: MD-156A 1920x1080 60Hz (UUID: 79713CEB-8631-4D8C-93E5-7533776D496F)
+生成されたキー: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3,79713CEB-8631-4D8C-93E5-7533776D496F (外部モニター 2台)
+
+=== Tue May 20 01:43:56 2025 ===
+レイアウト保存: モニター構成キー = AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3,79713CEB-8631-4D8C-93E5-7533776D496F
+
+=== Tue May 20 01:43:56 2025 ===
+現在のレイアウト取得: /opt/homebrew/bin/displayplacer list
+結果長さ: 19993
+
+=== Tue May 20 01:43:56 2025 ===
+Execute後のコマンド抽出: displayplacer "id:37D8832A-2D66-02CA-B9F7-8F30A301...
+
+=== Tue May 20 01:43:56 2025 ===
+完全パスを追加: /opt/homebrew/bin/displayplacerr "id:37D8832A-2D66...
+
+=== Tue May 20 01:43:56 2025 ===
+取得したレイアウトデータ長さ: 415
+
+=== Tue May 20 01:43:56 2025 ===
+コマンドパス修正: displayplacerr -> displayplacer
+
+=== Tue May 20 01:43:56 2025 ===
+コマンド抽出処理開始: 入力長=414
+
+=== Tue May 20 01:43:56 2025 ===
+パス付き引用符付きコマンド検出: /opt/homebrew/bin/displayplacer "id:37D8832A-2D66-...
+
+=== Tue May 20 01:43:56 2025 ===
+コマンド実行: mkdir -p /Users/morishige/.hammerspoon/apps/display_manager/data
+
+=== Tue May 20 01:43:56 2025 ===
+コマンド実行結果:
+
+=== Tue May 20 01:43:56 2025 ===
+- 成功: true
+
+=== Tue May 20 01:43:56 2025 ===
+- 終了コード: exit
+
+=== Tue May 20 01:43:56 2025 ===
+- 出力: なし
+
+=== Tue May 20 01:43:56 2025 ===
+保存するレイアウト: キー=AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3,79713CEB-8631-4D8C-93E5-7533776D496F, 長さ=414
+
+=== Tue May 20 01:43:56 2025 ===
+設定をファイルに保存しました: /Users/morishige/.hammerspoon/apps/display_manager/data/saved_layouts.lua
+
+=== Tue May 20 01:43:56 2025 ===
+保存したファイル情報: -rw-r--r--@ 1 morishige  staff  517 May 20 01:43 /Users/morishige/.hammerspoon/apps/display_manager/data/saved_layouts.lua
+
+
+=== Tue May 20 01:43:56 2025 ===
+レイアウト保存完了: キー = AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3,79713CEB-8631-4D8C-93E5-7533776D496F
+
+=== Tue May 20 01:43:58 2025 ===
+画面変更検出
+
+=== Tue May 20 01:43:58 2025 ===
+現在接続されている画面: 3台
+  1: Built-in Retina Display (UUID: 37D8832A-2D66-02CA-B9F7-8F30A301B230, Primary: true)
+  2: DELL S2722DC (UUID: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3, Primary: false)
+  3: MD-156A (UUID: 79713CEB-8631-4D8C-93E5-7533776D496F, Primary: false)
+
+
+=== Tue May 20 01:43:58 2025 ===
+アプリによるレイアウト適用試行: display_manager
+
+=== Tue May 20 01:43:58 2025 ===
+updateDisplayLayout開始: forceMode=false
+
+=== Tue May 20 01:43:58 2025 ===
+自動切り替えが無効なため終了
+
+=== Tue May 20 01:43:58 2025 ===
+画面変更検出
+
+=== Tue May 20 01:43:58 2025 ===
+現在接続されている画面: 3台
+  1: Built-in Retina Display (UUID: 37D8832A-2D66-02CA-B9F7-8F30A301B230, Primary: true)
+  2: DELL S2722DC (UUID: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3, Primary: false)
+  3: MD-156A (UUID: 79713CEB-8631-4D8C-93E5-7533776D496F, Primary: false)
+
+
+=== Tue May 20 01:43:58 2025 ===
+アプリによるレイアウト適用試行: display_manager
+
+=== Tue May 20 01:43:58 2025 ===
+updateDisplayLayout開始: forceMode=false
+
+=== Tue May 20 01:43:58 2025 ===
+自動切り替えが無効なため終了
+
+=== Tue May 20 01:44:02 2025 ===
+ホットキー実行: Ctrl+Alt+Cmd+Return
+
+=== Tue May 20 01:44:02 2025 ===
+updateDisplayLayout開始: forceMode=true
+
+=== Tue May 20 01:44:02 2025 ===
+displayplacerコマンドが見つかりました: /opt/homebrew/bin/displayplacer
+
+=== Tue May 20 01:44:02 2025 ===
+保存済みレイアウト再読み込み開始: /Users/morishige/.hammerspoon/apps/display_manager/data/saved_layouts.lua
+
+=== Tue May 20 01:44:02 2025 ===
+ファイル内容読み込み: 517 バイト
+
+=== Tue May 20 01:44:02 2025 ===
+ファイル構文エラー: [string "return return {..."]:1: unexpected symbol near 'return'
+
+=== Tue May 20 01:44:02 2025 ===
+設定ファイル再読み込み成功: /Users/morishige/.hammerspoon/apps/display_manager/data/saved_layouts.lua
+
+=== Tue May 20 01:44:02 2025 ===
+読み込まれたレイアウト [1]: キー=AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3,79713CEB-8631-4D8C-93E5-7533776D496F, 長さ=414
+
+=== Tue May 20 01:44:02 2025 ===
+合計 1 個のレイアウトを読み込みました
+
+=== Tue May 20 01:44:02 2025 ===
+現在のモニター状況:
+モニター 1: Built-in Retina Display (プライマリ)
+  UUID: 37D8832A-2D66-02CA-B9F7-8F30A301B230
+  フレーム: x=0, y=38, w=1728, h=1079
+  解像度: 1728x1117
+  スケール: 2.0
+  リフレッシュレート: 120 Hz
+モニター 2: DELL S2722DC (セカンダリ)
+  UUID: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3
+  フレーム: x=-1696, y=-1415, w=2560, h=1415
+  解像度: 2560x1440
+  スケール: 1.0
+  リフレッシュレート: 75 Hz
+モニター 3: MD-156A (セカンダリ)
+  UUID: 79713CEB-8631-4D8C-93E5-7533776D496F
+  フレーム: x=864, y=-1055, w=1920, h=1055
+  解像度: 1920x1080
+  スケール: 1.0
+  リフレッシュレート: 60 Hz
+
+
+=== Tue May 20 01:44:02 2025 ===
+検出したディスプレイ情報:
+- プライマリー: Built-in Retina Display (UUID: 37D8832A-2D66-02CA-B9F7-8F30A301B230)
+- ディスプレイ 1: Built-in Retina Display (UUID: 37D8832A-2D66-02CA-B9F7-8F30A301B230, 外部: いいえ, フレーム: x=0,y=38,w=1728,h=1079, モード: 1728x1117 scale:2.0 freq:120.0)
+- ディスプレイ 2: DELL S2722DC (UUID: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3, 外部: はい, フレーム: x=-1696,y=-1415,w=2560,h=1415, モード: 2560x1440 scale:1.0 freq:75.0)
+- ディスプレイ 3: MD-156A (UUID: 79713CEB-8631-4D8C-93E5-7533776D496F, 外部: はい, フレーム: x=864,y=-1055,w=1920,h=1055, モード: 1920x1080 scale:1.0 freq:60.0)
+  > 外部モニター順序 1: DELL S2722DC 2560x1440 75Hz (UUID: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3)
+  > 外部モニター順序 2: MD-156A 1920x1080 60Hz (UUID: 79713CEB-8631-4D8C-93E5-7533776D496F)
+生成されたキー: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3,79713CEB-8631-4D8C-93E5-7533776D496F (外部モニター 2台)
+
+=== Tue May 20 01:44:02 2025 ===
+現在の外部モニター構成キー: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3,79713CEB-8631-4D8C-93E5-7533776D496F
+
+=== Tue May 20 01:44:02 2025 ===
+保存済みレイアウト発見: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3,79713CEB-8631-4D8C-93E5-7533776D496F
+
+=== Tue May 20 01:44:02 2025 ===
+レイアウトデータ長さ: 414
+
+=== Tue May 20 01:44:02 2025 ===
+コマンド抽出処理開始: 入力長=414
+
+=== Tue May 20 01:44:02 2025 ===
+パス付き引用符付きコマンド検出: /opt/homebrew/bin/displayplacer "id:37D8832A-2D66-...
+
+=== Tue May 20 01:44:02 2025 ===
+実行するコマンド: /opt/homebrew/bin/displayplacer "id:37D8832A-2D66-02CA-B9F7-8F30A301B230 res:1728x1117 hz:120 color_depth:8 enabled:true scaling:on origin:(0,0) degree:0" "id:AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3 res:2560x1440 hz:75 color_depth:8 enabled:true scaling:off origin:(-1696,-1440) degree:0" "id:79713CEB-8631-4D8C-93E5-7533776D496F res:1920x1080 hz:60 color_depth:8 enabled:true scaling:off origin:(864,-1516) degree:0"
+
+=== Tue May 20 01:44:02 2025 ===
+displayplacer実行情報: lrwxr-xr-x@ 1 morishige  admin  47 May 15 00:30 /opt/homebrew/bin/displayplacer -> ../Cellar/displayplacer/1.4.0/bin/displayplacer
+
+
+=== Tue May 20 01:44:02 2025 ===
+コマンド実行: /opt/homebrew/bin/displayplacer "id:37D8832A-2D66-02CA-B9F7-8F30A301B230 res:1728x1117 hz:120 color_depth:8 enabled:true scaling:on origin:(0,0) degree:0" "id:AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3 res:2560x1440 hz:75 color_depth:8 enabled:true scaling:off origin:(-1696,-1440) degree:0" "id:79713CEB-8631-4D8C-93E5-7533776D496F res:1920x1080 hz:60 color_depth:8 enabled:true scaling:off origin:(864,-1516) degree:0"
+
+=== Tue May 20 01:44:03 2025 ===
+コマンド実行結果:
+
+=== Tue May 20 01:44:03 2025 ===
+- 成功: true
+
+=== Tue May 20 01:44:03 2025 ===
+- 終了コード: exit
+
+=== Tue May 20 01:44:03 2025 ===
+- 出力: なし
+
+=== Tue May 20 01:44:03 2025 ===
+--- コマンド実行後のディスプレイ状態確認 ---
+
+=== Tue May 20 01:44:03 2025 ===
+displayplacer list 結果 (一部):
+Persistent screen id: 37D8832A-2D66-02CA-B9F7-8F30A301B230
+Contextual screen id: 1
+Serial screen id: s4251086178
+Type: MacBook built in screen
+Resolution: 1728x1117
+Hertz: 120
+Color Depth: 8
+Scaling: on
+Origin: (0,0) - main display
+Rotation: 0 - rotate internal screen example (may crash computer, but will be rotated after rebooting): `displayplacer "id:37D8832A-2D66-02CA-B9F7-8F30A301B230 degree:90"`
+Enabled: true
+Resolutions for rotation 0:
+  mode 0: res:960x600 hz:120 color_depth:8 scaling:on
+  mode 1: res:960x600 hz:60 color_depth:8 scaling:on
+  mode 2: res:960x600 hz:59 color_depth:8 scaling:on
+  mode 3: res:960x600 hz:50 color_depth:8 scaling:on
+  mode 4: res:960x600 hz:48 color_depth:8 scaling:on
+  mode 5: res:960x600 hz:47 color_depth:8 scaling:on
+  mode 6: res:1168x730 hz:120 color...
+
+=== Tue May 20 01:44:03 2025 ===
+コマンド実行成功: 
+
+=== Tue May 20 01:44:03 2025 ===
+画面変更検出
+
+=== Tue May 20 01:44:03 2025 ===
+現在接続されている画面: 3台
+  1: Built-in Retina Display (UUID: 37D8832A-2D66-02CA-B9F7-8F30A301B230, Primary: true)
+  2: DELL S2722DC (UUID: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3, Primary: false)
+  3: MD-156A (UUID: 79713CEB-8631-4D8C-93E5-7533776D496F, Primary: false)
+
+
+=== Tue May 20 01:44:03 2025 ===
+アプリによるレイアウト適用試行: display_manager
+
+=== Tue May 20 01:44:03 2025 ===
+updateDisplayLayout開始: forceMode=false
+
+=== Tue May 20 01:44:03 2025 ===
+自動切り替えが無効なため終了
+
+=== Tue May 20 01:44:07 2025 ===
+画面変更検出
+
+=== Tue May 20 01:44:07 2025 ===
+現在接続されている画面: 3台
+  1: Built-in Retina Display (UUID: 37D8832A-2D66-02CA-B9F7-8F30A301B230, Primary: true)
+  2: DELL S2722DC (UUID: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3, Primary: false)
+  3: MD-156A (UUID: 79713CEB-8631-4D8C-93E5-7533776D496F, Primary: false)
+
+
+=== Tue May 20 01:44:07 2025 ===
+アプリによるレイアウト適用試行: display_manager
+
+=== Tue May 20 01:44:07 2025 ===
+updateDisplayLayout開始: forceMode=false
+
+=== Tue May 20 01:44:07 2025 ===
+自動切り替えが無効なため終了
+
+=== Tue May 20 01:44:07 2025 ===
+画面変更検出
+
+=== Tue May 20 01:44:07 2025 ===
+現在接続されている画面: 3台
+  1: Built-in Retina Display (UUID: 37D8832A-2D66-02CA-B9F7-8F30A301B230, Primary: true)
+  2: DELL S2722DC (UUID: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3, Primary: false)
+  3: MD-156A (UUID: 79713CEB-8631-4D8C-93E5-7533776D496F, Primary: false)
+
+
+=== Tue May 20 01:44:07 2025 ===
+アプリによるレイアウト適用試行: display_manager
+
+=== Tue May 20 01:44:07 2025 ===
+updateDisplayLayout開始: forceMode=false
+
+=== Tue May 20 01:44:07 2025 ===
+自動切り替えが無効なため終了
+
+=== Tue May 20 01:44:07 2025 ===
+画面変更検出
+
+=== Tue May 20 01:44:07 2025 ===
+現在接続されている画面: 3台
+  1: Built-in Retina Display (UUID: 37D8832A-2D66-02CA-B9F7-8F30A301B230, Primary: true)
+  2: DELL S2722DC (UUID: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3, Primary: false)
+  3: MD-156A (UUID: 79713CEB-8631-4D8C-93E5-7533776D496F, Primary: false)
+
+
+=== Tue May 20 01:44:07 2025 ===
+アプリによるレイアウト適用試行: display_manager
+
+=== Tue May 20 01:44:07 2025 ===
+updateDisplayLayout開始: forceMode=false
+
+=== Tue May 20 01:44:07 2025 ===
+自動切り替えが無効なため終了
+
+=== Tue May 20 01:44:11 2025 ===
+自動切り替え状態変更: ON
+
+=== Tue May 20 01:44:16 2025 ===
+ホットキー実行: Ctrl+Alt+Cmd+Return
+
+=== Tue May 20 01:44:16 2025 ===
+updateDisplayLayout開始: forceMode=true
+
+=== Tue May 20 01:44:16 2025 ===
+displayplacerコマンドが見つかりました: /opt/homebrew/bin/displayplacer
+
+=== Tue May 20 01:44:16 2025 ===
+保存済みレイアウト再読み込み開始: /Users/morishige/.hammerspoon/apps/display_manager/data/saved_layouts.lua
+
+=== Tue May 20 01:44:16 2025 ===
+ファイル内容読み込み: 517 バイト
+
+=== Tue May 20 01:44:16 2025 ===
+ファイル構文エラー: [string "return return {..."]:1: unexpected symbol near 'return'
+
+=== Tue May 20 01:44:16 2025 ===
+設定ファイル再読み込み成功: /Users/morishige/.hammerspoon/apps/display_manager/data/saved_layouts.lua
+
+=== Tue May 20 01:44:16 2025 ===
+読み込まれたレイアウト [1]: キー=AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3,79713CEB-8631-4D8C-93E5-7533776D496F, 長さ=414
+
+=== Tue May 20 01:44:16 2025 ===
+合計 1 個のレイアウトを読み込みました
+
+=== Tue May 20 01:44:16 2025 ===
+現在のモニター状況:
+モニター 1: Built-in Retina Display (プライマリ)
+  UUID: 37D8832A-2D66-02CA-B9F7-8F30A301B230
+  フレーム: x=0, y=38, w=1728, h=1079
+  解像度: 1728x1117
+  スケール: 2.0
+  リフレッシュレート: 120 Hz
+モニター 2: DELL S2722DC (セカンダリ)
+  UUID: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3
+  フレーム: x=-1696, y=-1415, w=2560, h=1415
+  解像度: 2560x1440
+  スケール: 1.0
+  リフレッシュレート: 75 Hz
+モニター 3: MD-156A (セカンダリ)
+  UUID: 79713CEB-8631-4D8C-93E5-7533776D496F
+  フレーム: x=1728, y=568, w=1920, h=1055
+  解像度: 1920x1080
+  スケール: 1.0
+  リフレッシュレート: 60 Hz
+
+
+=== Tue May 20 01:44:16 2025 ===
+検出したディスプレイ情報:
+- プライマリー: Built-in Retina Display (UUID: 37D8832A-2D66-02CA-B9F7-8F30A301B230)
+- ディスプレイ 1: Built-in Retina Display (UUID: 37D8832A-2D66-02CA-B9F7-8F30A301B230, 外部: いいえ, フレーム: x=0,y=38,w=1728,h=1079, モード: 1728x1117 scale:2.0 freq:120.0)
+- ディスプレイ 2: DELL S2722DC (UUID: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3, 外部: はい, フレーム: x=-1696,y=-1415,w=2560,h=1415, モード: 2560x1440 scale:1.0 freq:75.0)
+- ディスプレイ 3: MD-156A (UUID: 79713CEB-8631-4D8C-93E5-7533776D496F, 外部: はい, フレーム: x=1728,y=568,w=1920,h=1055, モード: 1920x1080 scale:1.0 freq:60.0)
+  > 外部モニター順序 1: DELL S2722DC 2560x1440 75Hz (UUID: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3)
+  > 外部モニター順序 2: MD-156A 1920x1080 60Hz (UUID: 79713CEB-8631-4D8C-93E5-7533776D496F)
+生成されたキー: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3,79713CEB-8631-4D8C-93E5-7533776D496F (外部モニター 2台)
+
+=== Tue May 20 01:44:16 2025 ===
+現在の外部モニター構成キー: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3,79713CEB-8631-4D8C-93E5-7533776D496F
+
+=== Tue May 20 01:44:16 2025 ===
+保存済みレイアウト発見: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3,79713CEB-8631-4D8C-93E5-7533776D496F
+
+=== Tue May 20 01:44:16 2025 ===
+レイアウトデータ長さ: 414
+
+=== Tue May 20 01:44:16 2025 ===
+コマンド抽出処理開始: 入力長=414
+
+=== Tue May 20 01:44:16 2025 ===
+パス付き引用符付きコマンド検出: /opt/homebrew/bin/displayplacer "id:37D8832A-2D66-...
+
+=== Tue May 20 01:44:16 2025 ===
+実行するコマンド: /opt/homebrew/bin/displayplacer "id:37D8832A-2D66-02CA-B9F7-8F30A301B230 res:1728x1117 hz:120 color_depth:8 enabled:true scaling:on origin:(0,0) degree:0" "id:AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3 res:2560x1440 hz:75 color_depth:8 enabled:true scaling:off origin:(-1696,-1440) degree:0" "id:79713CEB-8631-4D8C-93E5-7533776D496F res:1920x1080 hz:60 color_depth:8 enabled:true scaling:off origin:(864,-1516) degree:0"
+
+=== Tue May 20 01:44:16 2025 ===
+displayplacer実行情報: lrwxr-xr-x@ 1 morishige  admin  47 May 15 00:30 /opt/homebrew/bin/displayplacer -> ../Cellar/displayplacer/1.4.0/bin/displayplacer
+
+
+=== Tue May 20 01:44:16 2025 ===
+コマンド実行: /opt/homebrew/bin/displayplacer "id:37D8832A-2D66-02CA-B9F7-8F30A301B230 res:1728x1117 hz:120 color_depth:8 enabled:true scaling:on origin:(0,0) degree:0" "id:AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3 res:2560x1440 hz:75 color_depth:8 enabled:true scaling:off origin:(-1696,-1440) degree:0" "id:79713CEB-8631-4D8C-93E5-7533776D496F res:1920x1080 hz:60 color_depth:8 enabled:true scaling:off origin:(864,-1516) degree:0"
+
+=== Tue May 20 01:44:16 2025 ===
+コマンド実行結果:
+
+=== Tue May 20 01:44:16 2025 ===
+- 成功: true
+
+=== Tue May 20 01:44:16 2025 ===
+- 終了コード: exit
+
+=== Tue May 20 01:44:16 2025 ===
+- 出力: なし
+
+=== Tue May 20 01:44:16 2025 ===
+--- コマンド実行後のディスプレイ状態確認 ---
+
+=== Tue May 20 01:44:16 2025 ===
+displayplacer list 結果 (一部):
+Persistent screen id: 37D8832A-2D66-02CA-B9F7-8F30A301B230
+Contextual screen id: 1
+Serial screen id: s4251086178
+Type: MacBook built in screen
+Resolution: 1728x1117
+Hertz: 120
+Color Depth: 8
+Scaling: on
+Origin: (0,0) - main display
+Rotation: 0 - rotate internal screen example (may crash computer, but will be rotated after rebooting): `displayplacer "id:37D8832A-2D66-02CA-B9F7-8F30A301B230 degree:90"`
+Enabled: true
+Resolutions for rotation 0:
+  mode 0: res:960x600 hz:120 color_depth:8 scaling:on
+  mode 1: res:960x600 hz:60 color_depth:8 scaling:on
+  mode 2: res:960x600 hz:59 color_depth:8 scaling:on
+  mode 3: res:960x600 hz:50 color_depth:8 scaling:on
+  mode 4: res:960x600 hz:48 color_depth:8 scaling:on
+  mode 5: res:960x600 hz:47 color_depth:8 scaling:on
+  mode 6: res:1168x730 hz:120 color...
+
+=== Tue May 20 01:44:16 2025 ===
+コマンド実行成功: 
+
+=== Tue May 20 01:44:29 2025 ===
+ホットキー実行: Ctrl+Alt+Cmd+Return
+
+=== Tue May 20 01:44:29 2025 ===
+updateDisplayLayout開始: forceMode=true
+
+=== Tue May 20 01:44:29 2025 ===
+displayplacerコマンドが見つかりました: /opt/homebrew/bin/displayplacer
+
+=== Tue May 20 01:44:29 2025 ===
+保存済みレイアウト再読み込み開始: /Users/morishige/.hammerspoon/apps/display_manager/data/saved_layouts.lua
+
+=== Tue May 20 01:44:29 2025 ===
+ファイル内容読み込み: 517 バイト
+
+=== Tue May 20 01:44:29 2025 ===
+ファイル構文エラー: [string "return return {..."]:1: unexpected symbol near 'return'
+
+=== Tue May 20 01:44:29 2025 ===
+設定ファイル再読み込み成功: /Users/morishige/.hammerspoon/apps/display_manager/data/saved_layouts.lua
+
+=== Tue May 20 01:44:29 2025 ===
+読み込まれたレイアウト [1]: キー=AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3,79713CEB-8631-4D8C-93E5-7533776D496F, 長さ=414
+
+=== Tue May 20 01:44:29 2025 ===
+合計 1 個のレイアウトを読み込みました
+
+=== Tue May 20 01:44:29 2025 ===
+現在のモニター状況:
+モニター 1: Built-in Retina Display (プライマリ)
+  UUID: 37D8832A-2D66-02CA-B9F7-8F30A301B230
+  フレーム: x=0, y=38, w=1728, h=1079
+  解像度: 1728x1117
+  スケール: 2.0
+  リフレッシュレート: 120 Hz
+モニター 2: DELL S2722DC (セカンダリ)
+  UUID: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3
+  フレーム: x=-1696, y=-1415, w=2560, h=1415
+  解像度: 2560x1440
+  スケール: 1.0
+  リフレッシュレート: 75 Hz
+モニター 3: MD-156A (セカンダリ)
+  UUID: 79713CEB-8631-4D8C-93E5-7533776D496F
+  フレーム: x=864, y=-1055, w=1920, h=1055
+  解像度: 1920x1080
+  スケール: 1.0
+  リフレッシュレート: 60 Hz
+
+
+=== Tue May 20 01:44:29 2025 ===
+検出したディスプレイ情報:
+- プライマリー: Built-in Retina Display (UUID: 37D8832A-2D66-02CA-B9F7-8F30A301B230)
+- ディスプレイ 1: Built-in Retina Display (UUID: 37D8832A-2D66-02CA-B9F7-8F30A301B230, 外部: いいえ, フレーム: x=0,y=38,w=1728,h=1079, モード: 1728x1117 scale:2.0 freq:120.0)
+- ディスプレイ 2: DELL S2722DC (UUID: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3, 外部: はい, フレーム: x=-1696,y=-1415,w=2560,h=1415, モード: 2560x1440 scale:1.0 freq:75.0)
+- ディスプレイ 3: MD-156A (UUID: 79713CEB-8631-4D8C-93E5-7533776D496F, 外部: はい, フレーム: x=864,y=-1055,w=1920,h=1055, モード: 1920x1080 scale:1.0 freq:60.0)
+  > 外部モニター順序 1: DELL S2722DC 2560x1440 75Hz (UUID: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3)
+  > 外部モニター順序 2: MD-156A 1920x1080 60Hz (UUID: 79713CEB-8631-4D8C-93E5-7533776D496F)
+生成されたキー: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3,79713CEB-8631-4D8C-93E5-7533776D496F (外部モニター 2台)
+
+=== Tue May 20 01:44:29 2025 ===
+現在の外部モニター構成キー: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3,79713CEB-8631-4D8C-93E5-7533776D496F
+
+=== Tue May 20 01:44:29 2025 ===
+保存済みレイアウト発見: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3,79713CEB-8631-4D8C-93E5-7533776D496F
+
+=== Tue May 20 01:44:29 2025 ===
+レイアウトデータ長さ: 414
+
+=== Tue May 20 01:44:29 2025 ===
+コマンド抽出処理開始: 入力長=414
+
+=== Tue May 20 01:44:29 2025 ===
+パス付き引用符付きコマンド検出: /opt/homebrew/bin/displayplacer "id:37D8832A-2D66-...
+
+=== Tue May 20 01:44:29 2025 ===
+実行するコマンド: /opt/homebrew/bin/displayplacer "id:37D8832A-2D66-02CA-B9F7-8F30A301B230 res:1728x1117 hz:120 color_depth:8 enabled:true scaling:on origin:(0,0) degree:0" "id:AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3 res:2560x1440 hz:75 color_depth:8 enabled:true scaling:off origin:(-1696,-1440) degree:0" "id:79713CEB-8631-4D8C-93E5-7533776D496F res:1920x1080 hz:60 color_depth:8 enabled:true scaling:off origin:(864,-1516) degree:0"
+
+=== Tue May 20 01:44:29 2025 ===
+displayplacer実行情報: lrwxr-xr-x@ 1 morishige  admin  47 May 15 00:30 /opt/homebrew/bin/displayplacer -> ../Cellar/displayplacer/1.4.0/bin/displayplacer
+
+
+=== Tue May 20 01:44:29 2025 ===
+コマンド実行: /opt/homebrew/bin/displayplacer "id:37D8832A-2D66-02CA-B9F7-8F30A301B230 res:1728x1117 hz:120 color_depth:8 enabled:true scaling:on origin:(0,0) degree:0" "id:AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3 res:2560x1440 hz:75 color_depth:8 enabled:true scaling:off origin:(-1696,-1440) degree:0" "id:79713CEB-8631-4D8C-93E5-7533776D496F res:1920x1080 hz:60 color_depth:8 enabled:true scaling:off origin:(864,-1516) degree:0"
+
+=== Tue May 20 01:44:30 2025 ===
+コマンド実行結果:
+
+=== Tue May 20 01:44:30 2025 ===
+- 成功: true
+
+=== Tue May 20 01:44:30 2025 ===
+- 終了コード: exit
+
+=== Tue May 20 01:44:30 2025 ===
+- 出力: なし
+
+=== Tue May 20 01:44:30 2025 ===
+--- コマンド実行後のディスプレイ状態確認 ---
+
+=== Tue May 20 01:44:30 2025 ===
+displayplacer list 結果 (一部):
+Persistent screen id: 37D8832A-2D66-02CA-B9F7-8F30A301B230
+Contextual screen id: 1
+Serial screen id: s4251086178
+Type: MacBook built in screen
+Resolution: 1728x1117
+Hertz: 120
+Color Depth: 8
+Scaling: on
+Origin: (0,0) - main display
+Rotation: 0 - rotate internal screen example (may crash computer, but will be rotated after rebooting): `displayplacer "id:37D8832A-2D66-02CA-B9F7-8F30A301B230 degree:90"`
+Enabled: true
+Resolutions for rotation 0:
+  mode 0: res:960x600 hz:120 color_depth:8 scaling:on
+  mode 1: res:960x600 hz:60 color_depth:8 scaling:on
+  mode 2: res:960x600 hz:59 color_depth:8 scaling:on
+  mode 3: res:960x600 hz:50 color_depth:8 scaling:on
+  mode 4: res:960x600 hz:48 color_depth:8 scaling:on
+  mode 5: res:960x600 hz:47 color_depth:8 scaling:on
+  mode 6: res:1168x730 hz:120 color...
+
+=== Tue May 20 01:44:30 2025 ===
+コマンド実行成功: 
+
+=== Tue May 20 01:44:43 2025 ===
+自動切り替え状態変更: OFF
+
+=== Tue May 20 01:44:44 2025 ===
+自動切り替え状態変更: ON
+
+=== Tue May 20 01:44:52 2025 ===
+ホットキー実行: Ctrl+Alt+Cmd+Return
+
+=== Tue May 20 01:44:52 2025 ===
+updateDisplayLayout開始: forceMode=true
+
+=== Tue May 20 01:44:52 2025 ===
+displayplacerコマンドが見つかりました: /opt/homebrew/bin/displayplacer
+
+=== Tue May 20 01:44:52 2025 ===
+保存済みレイアウト再読み込み開始: /Users/morishige/.hammerspoon/apps/display_manager/data/saved_layouts.lua
+
+=== Tue May 20 01:44:52 2025 ===
+ファイル内容読み込み: 517 バイト
+
+=== Tue May 20 01:44:52 2025 ===
+ファイル構文エラー: [string "return return {..."]:1: unexpected symbol near 'return'
+
+=== Tue May 20 01:44:52 2025 ===
+設定ファイル再読み込み成功: /Users/morishige/.hammerspoon/apps/display_manager/data/saved_layouts.lua
+
+=== Tue May 20 01:44:52 2025 ===
+読み込まれたレイアウト [1]: キー=AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3,79713CEB-8631-4D8C-93E5-7533776D496F, 長さ=414
+
+=== Tue May 20 01:44:52 2025 ===
+合計 1 個のレイアウトを読み込みました
+
+=== Tue May 20 01:44:52 2025 ===
+現在のモニター状況:
+モニター 1: Built-in Retina Display (プライマリ)
+  UUID: 37D8832A-2D66-02CA-B9F7-8F30A301B230
+  フレーム: x=0, y=38, w=1728, h=1079
+  解像度: 1728x1117
+  スケール: 2.0
+  リフレッシュレート: 120 Hz
+モニター 2: DELL S2722DC (セカンダリ)
+  UUID: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3
+  フレーム: x=-1696, y=-1415, w=2560, h=1415
+  解像度: 2560x1440
+  スケール: 1.0
+  リフレッシュレート: 75 Hz
+モニター 3: MD-156A (セカンダリ)
+  UUID: 79713CEB-8631-4D8C-93E5-7533776D496F
+  フレーム: x=1728, y=-99, w=1920, h=1055
+  解像度: 1920x1080
+  スケール: 1.0
+  リフレッシュレート: 60 Hz
+
+
+=== Tue May 20 01:44:52 2025 ===
+検出したディスプレイ情報:
+- プライマリー: Built-in Retina Display (UUID: 37D8832A-2D66-02CA-B9F7-8F30A301B230)
+- ディスプレイ 1: Built-in Retina Display (UUID: 37D8832A-2D66-02CA-B9F7-8F30A301B230, 外部: いいえ, フレーム: x=0,y=38,w=1728,h=1079, モード: 1728x1117 scale:2.0 freq:120.0)
+- ディスプレイ 2: DELL S2722DC (UUID: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3, 外部: はい, フレーム: x=-1696,y=-1415,w=2560,h=1415, モード: 2560x1440 scale:1.0 freq:75.0)
+- ディスプレイ 3: MD-156A (UUID: 79713CEB-8631-4D8C-93E5-7533776D496F, 外部: はい, フレーム: x=1728,y=-99,w=1920,h=1055, モード: 1920x1080 scale:1.0 freq:60.0)
+  > 外部モニター順序 1: DELL S2722DC 2560x1440 75Hz (UUID: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3)
+  > 外部モニター順序 2: MD-156A 1920x1080 60Hz (UUID: 79713CEB-8631-4D8C-93E5-7533776D496F)
+生成されたキー: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3,79713CEB-8631-4D8C-93E5-7533776D496F (外部モニター 2台)
+
+=== Tue May 20 01:44:52 2025 ===
+現在の外部モニター構成キー: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3,79713CEB-8631-4D8C-93E5-7533776D496F
+
+=== Tue May 20 01:44:52 2025 ===
+保存済みレイアウト発見: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3,79713CEB-8631-4D8C-93E5-7533776D496F
+
+=== Tue May 20 01:44:52 2025 ===
+レイアウトデータ長さ: 414
+
+=== Tue May 20 01:44:52 2025 ===
+コマンド抽出処理開始: 入力長=414
+
+=== Tue May 20 01:44:52 2025 ===
+パス付き引用符付きコマンド検出: /opt/homebrew/bin/displayplacer "id:37D8832A-2D66-...
+
+=== Tue May 20 01:44:52 2025 ===
+実行するコマンド: /opt/homebrew/bin/displayplacer "id:37D8832A-2D66-02CA-B9F7-8F30A301B230 res:1728x1117 hz:120 color_depth:8 enabled:true scaling:on origin:(0,0) degree:0" "id:AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3 res:2560x1440 hz:75 color_depth:8 enabled:true scaling:off origin:(-1696,-1440) degree:0" "id:79713CEB-8631-4D8C-93E5-7533776D496F res:1920x1080 hz:60 color_depth:8 enabled:true scaling:off origin:(864,-1516) degree:0"
+
+=== Tue May 20 01:44:52 2025 ===
+displayplacer実行情報: lrwxr-xr-x@ 1 morishige  admin  47 May 15 00:30 /opt/homebrew/bin/displayplacer -> ../Cellar/displayplacer/1.4.0/bin/displayplacer
+
+
+=== Tue May 20 01:44:52 2025 ===
+コマンド実行: /opt/homebrew/bin/displayplacer "id:37D8832A-2D66-02CA-B9F7-8F30A301B230 res:1728x1117 hz:120 color_depth:8 enabled:true scaling:on origin:(0,0) degree:0" "id:AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3 res:2560x1440 hz:75 color_depth:8 enabled:true scaling:off origin:(-1696,-1440) degree:0" "id:79713CEB-8631-4D8C-93E5-7533776D496F res:1920x1080 hz:60 color_depth:8 enabled:true scaling:off origin:(864,-1516) degree:0"
+
+=== Tue May 20 01:44:53 2025 ===
+コマンド実行結果:
+
+=== Tue May 20 01:44:53 2025 ===
+- 成功: true
+
+=== Tue May 20 01:44:53 2025 ===
+- 終了コード: exit
+
+=== Tue May 20 01:44:53 2025 ===
+- 出力: なし
+
+=== Tue May 20 01:44:53 2025 ===
+--- コマンド実行後のディスプレイ状態確認 ---
+
+=== Tue May 20 01:44:53 2025 ===
+displayplacer list 結果 (一部):
+Persistent screen id: 37D8832A-2D66-02CA-B9F7-8F30A301B230
+Contextual screen id: 1
+Serial screen id: s4251086178
+Type: MacBook built in screen
+Resolution: 1728x1117
+Hertz: 120
+Color Depth: 8
+Scaling: on
+Origin: (0,0) - main display
+Rotation: 0 - rotate internal screen example (may crash computer, but will be rotated after rebooting): `displayplacer "id:37D8832A-2D66-02CA-B9F7-8F30A301B230 degree:90"`
+Enabled: true
+Resolutions for rotation 0:
+  mode 0: res:960x600 hz:120 color_depth:8 scaling:on
+  mode 1: res:960x600 hz:60 color_depth:8 scaling:on
+  mode 2: res:960x600 hz:59 color_depth:8 scaling:on
+  mode 3: res:960x600 hz:50 color_depth:8 scaling:on
+  mode 4: res:960x600 hz:48 color_depth:8 scaling:on
+  mode 5: res:960x600 hz:47 color_depth:8 scaling:on
+  mode 6: res:1168x730 hz:120 color...
+
+=== Tue May 20 01:44:53 2025 ===
+コマンド実行成功: 
+
+=== Tue May 20 01:44:53 2025 ===
+ホットキー実行: Ctrl+Alt+Cmd+Return
+
+=== Tue May 20 01:44:53 2025 ===
+updateDisplayLayout開始: forceMode=true
+
+=== Tue May 20 01:44:53 2025 ===
+displayplacerコマンドが見つかりました: /opt/homebrew/bin/displayplacer
+
+=== Tue May 20 01:44:53 2025 ===
+保存済みレイアウト再読み込み開始: /Users/morishige/.hammerspoon/apps/display_manager/data/saved_layouts.lua
+
+=== Tue May 20 01:44:53 2025 ===
+ファイル内容読み込み: 517 バイト
+
+=== Tue May 20 01:44:53 2025 ===
+ファイル構文エラー: [string "return return {..."]:1: unexpected symbol near 'return'
+
+=== Tue May 20 01:44:53 2025 ===
+設定ファイル再読み込み成功: /Users/morishige/.hammerspoon/apps/display_manager/data/saved_layouts.lua
+
+=== Tue May 20 01:44:53 2025 ===
+読み込まれたレイアウト [1]: キー=AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3,79713CEB-8631-4D8C-93E5-7533776D496F, 長さ=414
+
+=== Tue May 20 01:44:53 2025 ===
+合計 1 個のレイアウトを読み込みました
+
+=== Tue May 20 01:44:53 2025 ===
+現在のモニター状況:
+モニター 1: Built-in Retina Display (プライマリ)
+  UUID: 37D8832A-2D66-02CA-B9F7-8F30A301B230
+  フレーム: x=0, y=38, w=1728, h=1079
+  解像度: 1728x1117
+  スケール: 2.0
+  リフレッシュレート: 120 Hz
+モニター 2: DELL S2722DC (セカンダリ)
+  UUID: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3
+  フレーム: x=-1696, y=-1415, w=2560, h=1415
+  解像度: 2560x1440
+  スケール: 1.0
+  リフレッシュレート: 75 Hz
+モニター 3: MD-156A (セカンダリ)
+  UUID: 79713CEB-8631-4D8C-93E5-7533776D496F
+  フレーム: x=864, y=-1491, w=1920, h=1055
+  解像度: 1920x1080
+  スケール: 1.0
+  リフレッシュレート: 60 Hz
+
+
+=== Tue May 20 01:44:53 2025 ===
+検出したディスプレイ情報:
+- プライマリー: Built-in Retina Display (UUID: 37D8832A-2D66-02CA-B9F7-8F30A301B230)
+- ディスプレイ 1: Built-in Retina Display (UUID: 37D8832A-2D66-02CA-B9F7-8F30A301B230, 外部: いいえ, フレーム: x=0,y=38,w=1728,h=1079, モード: 1728x1117 scale:2.0 freq:120.0)
+- ディスプレイ 2: DELL S2722DC (UUID: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3, 外部: はい, フレーム: x=-1696,y=-1415,w=2560,h=1415, モード: 2560x1440 scale:1.0 freq:75.0)
+- ディスプレイ 3: MD-156A (UUID: 79713CEB-8631-4D8C-93E5-7533776D496F, 外部: はい, フレーム: x=864,y=-1491,w=1920,h=1055, モード: 1920x1080 scale:1.0 freq:60.0)
+  > 外部モニター順序 1: DELL S2722DC 2560x1440 75Hz (UUID: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3)
+  > 外部モニター順序 2: MD-156A 1920x1080 60Hz (UUID: 79713CEB-8631-4D8C-93E5-7533776D496F)
+生成されたキー: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3,79713CEB-8631-4D8C-93E5-7533776D496F (外部モニター 2台)
+
+=== Tue May 20 01:44:53 2025 ===
+現在の外部モニター構成キー: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3,79713CEB-8631-4D8C-93E5-7533776D496F
+
+=== Tue May 20 01:44:53 2025 ===
+保存済みレイアウト発見: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3,79713CEB-8631-4D8C-93E5-7533776D496F
+
+=== Tue May 20 01:44:53 2025 ===
+レイアウトデータ長さ: 414
+
+=== Tue May 20 01:44:53 2025 ===
+コマンド抽出処理開始: 入力長=414
+
+=== Tue May 20 01:44:53 2025 ===
+パス付き引用符付きコマンド検出: /opt/homebrew/bin/displayplacer "id:37D8832A-2D66-...
+
+=== Tue May 20 01:44:53 2025 ===
+実行するコマンド: /opt/homebrew/bin/displayplacer "id:37D8832A-2D66-02CA-B9F7-8F30A301B230 res:1728x1117 hz:120 color_depth:8 enabled:true scaling:on origin:(0,0) degree:0" "id:AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3 res:2560x1440 hz:75 color_depth:8 enabled:true scaling:off origin:(-1696,-1440) degree:0" "id:79713CEB-8631-4D8C-93E5-7533776D496F res:1920x1080 hz:60 color_depth:8 enabled:true scaling:off origin:(864,-1516) degree:0"
+
+=== Tue May 20 01:44:53 2025 ===
+displayplacer実行情報: lrwxr-xr-x@ 1 morishige  admin  47 May 15 00:30 /opt/homebrew/bin/displayplacer -> ../Cellar/displayplacer/1.4.0/bin/displayplacer
+
+
+=== Tue May 20 01:44:53 2025 ===
+コマンド実行: /opt/homebrew/bin/displayplacer "id:37D8832A-2D66-02CA-B9F7-8F30A301B230 res:1728x1117 hz:120 color_depth:8 enabled:true scaling:on origin:(0,0) degree:0" "id:AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3 res:2560x1440 hz:75 color_depth:8 enabled:true scaling:off origin:(-1696,-1440) degree:0" "id:79713CEB-8631-4D8C-93E5-7533776D496F res:1920x1080 hz:60 color_depth:8 enabled:true scaling:off origin:(864,-1516) degree:0"
+
+=== Tue May 20 01:44:54 2025 ===
+コマンド実行結果:
+
+=== Tue May 20 01:44:54 2025 ===
+- 成功: true
+
+=== Tue May 20 01:44:54 2025 ===
+- 終了コード: exit
+
+=== Tue May 20 01:44:54 2025 ===
+- 出力: なし
+
+=== Tue May 20 01:44:54 2025 ===
+--- コマンド実行後のディスプレイ状態確認 ---
+
+=== Tue May 20 01:44:54 2025 ===
+displayplacer list 結果 (一部):
+Persistent screen id: 37D8832A-2D66-02CA-B9F7-8F30A301B230
+Contextual screen id: 1
+Serial screen id: s4251086178
+Type: MacBook built in screen
+Resolution: 1728x1117
+Hertz: 120
+Color Depth: 8
+Scaling: on
+Origin: (0,0) - main display
+Rotation: 0 - rotate internal screen example (may crash computer, but will be rotated after rebooting): `displayplacer "id:37D8832A-2D66-02CA-B9F7-8F30A301B230 degree:90"`
+Enabled: true
+Resolutions for rotation 0:
+  mode 0: res:960x600 hz:120 color_depth:8 scaling:on
+  mode 1: res:960x600 hz:60 color_depth:8 scaling:on
+  mode 2: res:960x600 hz:59 color_depth:8 scaling:on
+  mode 3: res:960x600 hz:50 color_depth:8 scaling:on
+  mode 4: res:960x600 hz:48 color_depth:8 scaling:on
+  mode 5: res:960x600 hz:47 color_depth:8 scaling:on
+  mode 6: res:1168x730 hz:120 color...
+
+=== Tue May 20 01:44:54 2025 ===
+コマンド実行成功: 
+
+=== Tue May 20 01:44:56 2025 ===
+検出したディスプレイ情報:
+- プライマリー: Built-in Retina Display (UUID: 37D8832A-2D66-02CA-B9F7-8F30A301B230)
+- ディスプレイ 1: Built-in Retina Display (UUID: 37D8832A-2D66-02CA-B9F7-8F30A301B230, 外部: いいえ, フレーム: x=0,y=38,w=1728,h=1079, モード: 1728x1117 scale:2.0 freq:120.0)
+- ディスプレイ 2: DELL S2722DC (UUID: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3, 外部: はい, フレーム: x=-1696,y=-1415,w=2560,h=1415, モード: 2560x1440 scale:1.0 freq:75.0)
+- ディスプレイ 3: MD-156A (UUID: 79713CEB-8631-4D8C-93E5-7533776D496F, 外部: はい, フレーム: x=864,y=-1491,w=1920,h=1055, モード: 1920x1080 scale:1.0 freq:60.0)
+  > 外部モニター順序 1: DELL S2722DC 2560x1440 75Hz (UUID: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3)
+  > 外部モニター順序 2: MD-156A 1920x1080 60Hz (UUID: 79713CEB-8631-4D8C-93E5-7533776D496F)
+生成されたキー: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3,79713CEB-8631-4D8C-93E5-7533776D496F (外部モニター 2台)
+
+=== Tue May 20 01:44:56 2025 ===
+レイアウト削除: モニター構成キー = AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3,79713CEB-8631-4D8C-93E5-7533776D496F
+
+=== Tue May 20 01:44:56 2025 ===
+コマンド実行: mkdir -p /Users/morishige/.hammerspoon/apps/display_manager/data
+
+=== Tue May 20 01:44:57 2025 ===
+コマンド実行結果:
+
+=== Tue May 20 01:44:57 2025 ===
+- 成功: true
+
+=== Tue May 20 01:44:57 2025 ===
+- 終了コード: exit
+
+=== Tue May 20 01:44:57 2025 ===
+- 出力: なし
+
+=== Tue May 20 01:44:57 2025 ===
+設定をファイルに保存しました: /Users/morishige/.hammerspoon/apps/display_manager/data/saved_layouts.lua
+
+=== Tue May 20 01:44:57 2025 ===
+保存したファイル情報: -rw-r--r--@ 1 morishige  staff  11 May 20 01:44 /Users/morishige/.hammerspoon/apps/display_manager/data/saved_layouts.lua
+
+
+=== Tue May 20 01:44:57 2025 ===
+レイアウト削除完了: キー = AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3,79713CEB-8631-4D8C-93E5-7533776D496F
+
+=== Tue May 20 01:44:58 2025 ===
+ホットキー実行: Ctrl+Alt+Cmd+Return
+
+=== Tue May 20 01:44:58 2025 ===
+updateDisplayLayout開始: forceMode=true
+
+=== Tue May 20 01:44:58 2025 ===
+displayplacerコマンドが見つかりました: /opt/homebrew/bin/displayplacer
+
+=== Tue May 20 01:44:58 2025 ===
+保存済みレイアウト再読み込み開始: /Users/morishige/.hammerspoon/apps/display_manager/data/saved_layouts.lua
+
+=== Tue May 20 01:44:58 2025 ===
+ファイル内容読み込み: 11 バイト
+
+=== Tue May 20 01:44:58 2025 ===
+ファイル構文エラー: [string "return return {..."]:1: unexpected symbol near 'return'
+
+=== Tue May 20 01:44:58 2025 ===
+設定ファイル再読み込み成功: /Users/morishige/.hammerspoon/apps/display_manager/data/saved_layouts.lua
+
+=== Tue May 20 01:44:58 2025 ===
+合計 0 個のレイアウトを読み込みました
+
+=== Tue May 20 01:44:58 2025 ===
+現在のモニター状況:
+モニター 1: Built-in Retina Display (プライマリ)
+  UUID: 37D8832A-2D66-02CA-B9F7-8F30A301B230
+  フレーム: x=0, y=38, w=1728, h=1079
+  解像度: 1728x1117
+  スケール: 2.0
+  リフレッシュレート: 120 Hz
+モニター 2: DELL S2722DC (セカンダリ)
+  UUID: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3
+  フレーム: x=-1696, y=-1415, w=2560, h=1415
+  解像度: 2560x1440
+  スケール: 1.0
+  リフレッシュレート: 75 Hz
+モニター 3: MD-156A (セカンダリ)
+  UUID: 79713CEB-8631-4D8C-93E5-7533776D496F
+  フレーム: x=864, y=-1491, w=1920, h=1055
+  解像度: 1920x1080
+  スケール: 1.0
+  リフレッシュレート: 60 Hz
+
+
+=== Tue May 20 01:44:58 2025 ===
+検出したディスプレイ情報:
+- プライマリー: Built-in Retina Display (UUID: 37D8832A-2D66-02CA-B9F7-8F30A301B230)
+- ディスプレイ 1: Built-in Retina Display (UUID: 37D8832A-2D66-02CA-B9F7-8F30A301B230, 外部: いいえ, フレーム: x=0,y=38,w=1728,h=1079, モード: 1728x1117 scale:2.0 freq:120.0)
+- ディスプレイ 2: DELL S2722DC (UUID: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3, 外部: はい, フレーム: x=-1696,y=-1415,w=2560,h=1415, モード: 2560x1440 scale:1.0 freq:75.0)
+- ディスプレイ 3: MD-156A (UUID: 79713CEB-8631-4D8C-93E5-7533776D496F, 外部: はい, フレーム: x=864,y=-1491,w=1920,h=1055, モード: 1920x1080 scale:1.0 freq:60.0)
+  > 外部モニター順序 1: DELL S2722DC 2560x1440 75Hz (UUID: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3)
+  > 外部モニター順序 2: MD-156A 1920x1080 60Hz (UUID: 79713CEB-8631-4D8C-93E5-7533776D496F)
+生成されたキー: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3,79713CEB-8631-4D8C-93E5-7533776D496F (外部モニター 2台)
+
+=== Tue May 20 01:44:58 2025 ===
+現在の外部モニター構成キー: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3,79713CEB-8631-4D8C-93E5-7533776D496F
+
+=== Tue May 20 01:44:58 2025 ===
+保存済みレイアウトが見つかりません: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3,79713CEB-8631-4D8C-93E5-7533776D496F
+
+=== Tue May 20 01:44:58 2025 ===
+デフォルトレイアウト適用: /opt/homebrew/bin/displayplacer 'id:AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3 origin:(-1696,-1415)' 'id:79713CEB-8631-4D8C-93E5-7533776D496F origin:(864,-1055)' 'id:37D8832A-2D66-02CA-B9F7-8F30A301B230 origin:(0,0)'
+
+=== Tue May 20 01:44:58 2025 ===
+コマンド実行: /opt/homebrew/bin/displayplacer 'id:AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3 origin:(-1696,-1415)' 'id:79713CEB-8631-4D8C-93E5-7533776D496F origin:(864,-1055)' 'id:37D8832A-2D66-02CA-B9F7-8F30A301B230 origin:(0,0)'
+
+=== Tue May 20 01:44:58 2025 ===
+コマンド実行結果:
+
+=== Tue May 20 01:44:58 2025 ===
+- 成功: nil
+
+=== Tue May 20 01:44:58 2025 ===
+- 終了コード: exit
+
+=== Tue May 20 01:44:58 2025 ===
+- 出力:
+Screen ID AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3: could not find res:0x0 scaling:off
+Screen ID 79713CEB-8631-4D8C-93E5-7533776D496F: could not find res:0x0 scaling:off
+Screen ID 37D8832A-2D66-02CA-B9F7-8F30A301B230: could not find res:0x0 scaling:off
+
+
+=== Tue May 20 01:44:58 2025 ===
+--- コマンド実行後のディスプレイ状態確認 ---
+
+=== Tue May 20 01:44:59 2025 ===
+displayplacer list 結果 (一部):
+Persistent screen id: 37D8832A-2D66-02CA-B9F7-8F30A301B230
+Contextual screen id: 1
+Serial screen id: s4251086178
+Type: MacBook built in screen
+Resolution: 1728x1117
+Hertz: 120
+Color Depth: 8
+Scaling: on
+Origin: (0,0) - main display
+Rotation: 0 - rotate internal screen example (may crash computer, but will be rotated after rebooting): `displayplacer "id:37D8832A-2D66-02CA-B9F7-8F30A301B230 degree:90"`
+Enabled: true
+Resolutions for rotation 0:
+  mode 0: res:960x600 hz:120 color_depth:8 scaling:on
+  mode 1: res:960x600 hz:60 color_depth:8 scaling:on
+  mode 2: res:960x600 hz:59 color_depth:8 scaling:on
+  mode 3: res:960x600 hz:50 color_depth:8 scaling:on
+  mode 4: res:960x600 hz:48 color_depth:8 scaling:on
+  mode 5: res:960x600 hz:47 color_depth:8 scaling:on
+  mode 6: res:1168x730 hz:120 color...
+
+=== Tue May 20 01:45:17 2025 ===
+自動切り替え状態変更: OFF
+
+=== Tue May 20 01:45:18 2025 ===
+自動切り替え状態変更: ON
+
+=== Tue May 20 01:45:19 2025 ===
+ホットキー実行: Ctrl+Alt+Cmd+Return
+
+=== Tue May 20 01:45:19 2025 ===
+updateDisplayLayout開始: forceMode=true
+
+=== Tue May 20 01:45:19 2025 ===
+displayplacerコマンドが見つかりました: /opt/homebrew/bin/displayplacer
+
+=== Tue May 20 01:45:19 2025 ===
+保存済みレイアウト再読み込み開始: /Users/morishige/.hammerspoon/apps/display_manager/data/saved_layouts.lua
+
+=== Tue May 20 01:45:19 2025 ===
+ファイル内容読み込み: 11 バイト
+
+=== Tue May 20 01:45:19 2025 ===
+ファイル構文エラー: [string "return return {..."]:1: unexpected symbol near 'return'
+
+=== Tue May 20 01:45:19 2025 ===
+設定ファイル再読み込み成功: /Users/morishige/.hammerspoon/apps/display_manager/data/saved_layouts.lua
+
+=== Tue May 20 01:45:19 2025 ===
+合計 0 個のレイアウトを読み込みました
+
+=== Tue May 20 01:45:19 2025 ===
+現在のモニター状況:
+モニター 1: Built-in Retina Display (プライマリ)
+  UUID: 37D8832A-2D66-02CA-B9F7-8F30A301B230
+  フレーム: x=0, y=38, w=1728, h=1079
+  解像度: 1728x1117
+  スケール: 2.0
+  リフレッシュレート: 120 Hz
+モニター 2: DELL S2722DC (セカンダリ)
+  UUID: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3
+  フレーム: x=1728, y=-943, w=2560, h=1415
+  解像度: 2560x1440
+  スケール: 1.0
+  リフレッシュレート: 60 Hz
+
+
+=== Tue May 20 01:45:19 2025 ===
+検出したディスプレイ情報:
+- プライマリー: Built-in Retina Display (UUID: 37D8832A-2D66-02CA-B9F7-8F30A301B230)
+- ディスプレイ 1: Built-in Retina Display (UUID: 37D8832A-2D66-02CA-B9F7-8F30A301B230, 外部: いいえ, フレーム: x=0,y=38,w=1728,h=1079, モード: 1728x1117 scale:2.0 freq:120.0)
+- ディスプレイ 2: DELL S2722DC (UUID: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3, 外部: はい, フレーム: x=1728,y=-943,w=2560,h=1415, モード: 2560x1440 scale:1.0 freq:60.0)
+  > 外部モニター順序 1: DELL S2722DC 2560x1440 60Hz (UUID: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3)
+生成されたキー: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3 (外部モニター 1台)
+
+=== Tue May 20 01:45:19 2025 ===
+現在の外部モニター構成キー: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3
+
+=== Tue May 20 01:45:19 2025 ===
+保存済みレイアウトが見つかりません: AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3
+
+=== Tue May 20 01:45:19 2025 ===
+デフォルトレイアウト適用: /opt/homebrew/bin/displayplacer 'id:AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3 origin:(-416,-1415)' 'id:37D8832A-2D66-02CA-B9F7-8F30A301B230 origin:(0,0)'
+
+=== Tue May 20 01:45:19 2025 ===
+コマンド実行: /opt/homebrew/bin/displayplacer 'id:AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3 origin:(-416,-1415)' 'id:37D8832A-2D66-02CA-B9F7-8F30A301B230 origin:(0,0)'
+
+=== Tue May 20 01:45:20 2025 ===
+コマンド実行結果:
+
+=== Tue May 20 01:45:20 2025 ===
+- 成功: nil
+
+=== Tue May 20 01:45:20 2025 ===
+- 終了コード: exit
+
+=== Tue May 20 01:45:20 2025 ===
+- 出力:
+Screen ID AE1BD9FB-8D8E-4BED-B210-09DF79AF2AA3: could not find res:0x0 scaling:off
+Screen ID 37D8832A-2D66-02CA-B9F7-8F30A301B230: could not find res:0x0 scaling:off
+
+
+=== Tue May 20 01:45:20 2025 ===
+--- コマンド実行後のディスプレイ状態確認 ---
+
+=== Tue May 20 01:45:20 2025 ===
+displayplacer list 結果 (一部):
+Persistent screen id: 37D8832A-2D66-02CA-B9F7-8F30A301B230
+Contextual screen id: 1
+Serial screen id: s4251086178
+Type: MacBook built in screen
+Resolution: 1728x1117
+Hertz: 120
+Color Depth: 8
+Scaling: on
+Origin: (0,0) - main display
+Rotation: 0 - rotate internal screen example (may crash computer, but will be rotated after rebooting): `displayplacer "id:37D8832A-2D66-02CA-B9F7-8F30A301B230 degree:90"`
+Enabled: true
+Resolutions for rotation 0:
+  mode 0: res:960x600 hz:120 color_depth:8 scaling:on
+  mode 1: res:960x600 hz:60 color_depth:8 scaling:on
+  mode 2: res:960x600 hz:59 color_depth:8 scaling:on
+  mode 3: res:960x600 hz:50 color_depth:8 scaling:on
+  mode 4: res:960x600 hz:48 color_depth:8 scaling:on
+  mode 5: res:960x600 hz:47 color_depth:8 scaling:on
+  mode 6: res:1168x730 hz:120 color...

@@ -9,6 +9,7 @@ function utils.loadModule(name)
         return module
     else
         print("モジュール読み込みエラー: " .. name .. " - " .. module)
+        print("スタックトレース: " .. debug.traceback())
         return nil
     end
 end

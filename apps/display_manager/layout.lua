@@ -362,6 +362,33 @@ local function saveLayout()
     logger("レイアウト保存完了: キー = " .. key)
 end
 
+-- レイアウト削除コマンド
+local function deleteLayout()
+    local key = displayUtils.getExternalKey(logger)
+    logger("レイアウト削除: モニター構成キー = " .. key)
+    
+    if key == "" then
+        hs.alert.show("外部モニターが見つかりません")
+        logger("外部モニターが見つからないため削除できません")
+        return
+    end
+    
+    if savedLayouts[key] then
+        -- 削除前に確認
+        hs.alert.show("レイアウト削除中...", 1)
+        
+        -- 削除実行
+        savedLayouts[key] = nil
+        persist()
+        
+        hs.alert.show("レイアウトを削除しました")
+        logger("レイアウト削除完了: キー = " .. key)
+    else
+        hs.alert.show("削除する保存済みレイアウトがありません")
+        logger("保存済みレイアウトが見つかりません: " .. key)
+    end
+end
+
 -- 自動切り替え切り替え
 local function toggleAutoSwitch()
     settings.autoSwitch = not settings.autoSwitch
@@ -369,37 +396,123 @@ local function toggleAutoSwitch()
     hs.alert.show("AutoSwitch: " .. (settings.autoSwitch and "ON" or "OFF"))
 end
 
+-- ヘルプと使い方の表示
+local function showHelp()
+    local helpText = [[
+ディスプレイマネージャー 使い方ガイド
+
+■ ショートカットキー
+⌃⌥⌘S = 現在の画面レイアウトを保存
+⌃⌥⌘R または ⌃⌥⌘Return = 保存したレイアウトを適用
+⌃⌥⌘X = 現在の構成のレイアウトを削除
+⌃⌥⌘D = 自動切り替え ON/OFF
+⌃⌥⌘I = 現在の画面構成情報を表示
+⌃⌥⌘H = このヘルプを表示
+
+■ 代替方法
+1. メニューバーの📺アイコンから操作
+2. Hammerspoonコンソールから「_G.applyDisplayLayout()」を実行
+3. Returnキーが使えない場合はRキーを使用
+
+■ 使い方
+1. モニターを希望の配置に手動で設定
+2. ⌃⌥⌘S で現在のレイアウトを保存
+3. 次回同じモニター構成を検出したら自動適用
+
+■ 注意点
+・モニターは名前とUUIDで識別されます
+・自動切り替えが有効な場合のみ自動適用
+・問題が発生した場合はログを確認：
+  ~/.hammerspoon/display_log.txt
+]]
+
+    hs.dialog.alert(0, 0, "ディスプレイマネージャー ヘルプ", helpText, "閉じる")
+    logger("ヘルプを表示しました")
+end
+
+-- 現在の画面状態を表示
+local function showCurrentLayout()
+    local screens = hs.screen.allScreens()
+    local info = "現在の画面構成:\n"
+    info = info .. "画面数: " .. #screens .. "台\n\n"
+    
+    for i, screen in ipairs(screens) do
+        local f = screen:frame()
+        local name = screen:name() or "不明"
+        local primary = (screen == hs.screen.primaryScreen()) and "プライマリ" or "セカンダリ"
+        local resolution = ""
+        
+        local mode = screen:currentMode()
+        if mode then
+            resolution = mode.w .. "x" .. mode.h
+            if mode.freq then
+                resolution = resolution .. " " .. mode.freq .. "Hz"
+            end
+        end
+        
+        info = info .. i .. ": " .. name .. " (" .. primary .. ")\n"
+        info = info .. "   位置: (" .. f.x .. "," .. f.y .. ") サイズ: " .. f.w .. "x" .. f.h .. "\n"
+        info = info .. "   解像度: " .. resolution .. "\n"
+    end
+    
+    -- 保存済みレイアウト情報
+    local key = displayUtils.getExternalKey(logger)
+    info = info .. "\n現在の構成キー: " .. key .. "\n"
+    
+    if key ~= "" and savedLayouts[key] then
+        info = info .. "この構成用の保存済みレイアウトがあります"
+    else
+        info = info .. "この構成用の保存済みレイアウトはありません"
+    end
+    
+    hs.dialog.alert(0, 0, "画面情報", info, "OK")
+    logger("画面情報を表示: " .. info)
+end
+
 -- ホットキー設定
 hs.hotkey.bind({"ctrl","alt","cmd"}, "S", saveLayout)
 hs.hotkey.bind({"ctrl","alt","cmd"}, "D", toggleAutoSwitch)
+hs.hotkey.bind({"ctrl","alt","cmd"}, "X", deleteLayout)
+hs.hotkey.bind({"ctrl","alt","cmd"}, "I", showCurrentLayout)  -- 情報表示用
+hs.hotkey.bind({"ctrl","alt","cmd"}, "H", showHelp)  -- ヘルプ表示
 
--- Returnキーに関する問題を解決するために複数の代替バインディングを提供
--- Returnキーのバリエーション（各環境で異なる名前で認識される可能性がある）
-local returnKeys = {"return", "Return", "⏎", "↩", "⌤", "⏎", "↵", "⎆", "⎘"}
-
--- すべてのReturnキーのバリエーションにバインドを試みる
-for _, key in ipairs(returnKeys) do
-    local ok, err = pcall(function()
-        hs.hotkey.bind({"ctrl","alt","cmd"}, key, function()
-            logger("ホットキー実行: Ctrl+Alt+Cmd+" .. key)
-            updateDisplayLayout(true)
-            hs.alert.show("ディスプレイレイアウトを強制適用しました")
-        end)
-    end)
-    
-    if not ok then
-        logger("Return代替キー " .. key .. " のバインドに失敗: " .. tostring(err))
-    else
-        logger("Return代替キー " .. key .. " をバインドしました")
+-- Returnキーに関する問題を根本的に解決
+-- 既存のReturnキーバインディングはすべて解除
+local existingReturnHotkeys = {}
+for _, hotkey in ipairs(hs.hotkey.getHotkeys()) do
+    local mods = hotkey.idx:match("^(.+):return$")
+    if mods and mods:match("cmd") and mods:match("alt") and mods:match("ctrl") then
+        table.insert(existingReturnHotkeys, hotkey)
+        logger("既存のreturnホットキーを検出: " .. hotkey.idx)
     end
 end
 
--- 最も確実なRキーを追加
-hs.hotkey.bind({"ctrl","alt","cmd"}, "R", function() 
-    logger("ホットキー実行: Ctrl+Alt+Cmd+R（Returnの確実な代替）")
-    updateDisplayLayout(true) 
-    hs.alert.show("ディスプレイレイアウトを強制適用しました（R）") 
+-- 既存のホットキーを解除
+for _, hotkey in ipairs(existingReturnHotkeys) do
+    hotkey:delete()
+    logger("既存のreturnホットキーを解除: " .. hotkey.idx)
+end
+
+-- 問題のあるホットキー設定を以下のシンプルなバージョンに置き換え
+-- returnキーは単純に文字列指定（最も確実な方法）
+hs.hotkey.bind({"ctrl", "alt", "cmd"}, "return", function()
+    logger("ホットキー実行: Ctrl+Alt+Cmd+Return")
+    updateDisplayLayout(true)
+    hs.alert.show("ディスプレイレイアウトを強制適用しました (Return)")
 end)
+
+-- 最も確実な代替方法として「R」キーを追加（これは確実に動作する）
+hs.hotkey.bind({"ctrl", "alt", "cmd"}, "R", function()
+    logger("ホットキー実行: Ctrl+Alt+Cmd+R (確実な代替)")
+    updateDisplayLayout(true)
+    hs.alert.show("ディスプレイレイアウトを強制適用しました (R)")
+end)
+
+-- メニューからの呼び出しとグローバル関数も用意
+_G.applyDisplayLayout = function()
+    logger("グローバル関数applyDisplayLayoutから呼び出し")
+    updateDisplayLayout(true)
+end
 
 -- ホットキー以外の方法も提供（メニューバー）
 local menubar = hs.menubar.new()
@@ -407,24 +520,30 @@ if menubar then
     menubar:setTitle("📺")
     
     menubar:setMenu(function()
+        -- 現在の構成に保存済みレイアウトがあるかを確認
+        local key = displayUtils.getExternalKey(logger)
+        local hasLayout = (key ~= "" and savedLayouts[key]) and true or false
+        
         local menu = {
             { title = "モニターレイアウト保存（⌃⌥⌘S）", fn = saveLayout },
-            { title = "モニターレイアウト適用（⌃⌥⌘R）", fn = function() updateDisplayLayout(true) end },
+            { title = hasLayout and "モニターレイアウト適用（⌃⌥⌘R/Return）" or "モニターレイアウト適用（未保存）", 
+              fn = function() updateDisplayLayout(true) end, 
+              disabled = not hasLayout },
+            { title = hasLayout and "モニターレイアウト削除（⌃⌥⌘X）" or "モニターレイアウト削除（未保存）", 
+              fn = deleteLayout, 
+              disabled = not hasLayout },
             { title = "-" },
-            { title = "自動切替: " .. (settings.autoSwitch and "ON" or "OFF"), fn = toggleAutoSwitch },
+            { title = "画面構成情報を表示（⌃⌥⌘I）", fn = showCurrentLayout },
             { title = "-" },
+            { title = "自動切替: " .. (settings.autoSwitch and "ON ✓" or "OFF"), fn = toggleAutoSwitch },
+            { title = "-" },
+            { title = "ヘルプを表示（⌃⌥⌘H）", fn = showHelp },
             { title = "Hammerspoonリロード", fn = hs.reload }
         }
         return menu
     end)
 
     logger("ディスプレイマネージャーのメニューバーアイコンを設定しました")
-end
-
--- グローバル関数に登録（コンソールからデバッグ呼び出しできるように）
-_G.displayManagerApply = function()
-    logger("グローバル関数から呼び出し")
-    updateDisplayLayout(true)
 end
 
 -- 初期化
@@ -458,5 +577,8 @@ updateDisplayLayout(true)
 return {
     updateDisplayLayout = updateDisplayLayout,
     saveLayout = saveLayout,
-    toggleAutoSwitch = toggleAutoSwitch
+    toggleAutoSwitch = toggleAutoSwitch,
+    deleteLayout = deleteLayout,
+    showCurrentLayout = showCurrentLayout,
+    showHelp = showHelp
 } 
